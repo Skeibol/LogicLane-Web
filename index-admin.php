@@ -29,8 +29,10 @@ include "header.php";
             <p>Lorem ipsum dolor..</p>
         </div>
         <div class="col-sm-3">
-            <h3>Column 3</h3>
+            <h3>Admin</h3>
+            <a href="index.php">Home</a>
             <p>Lorem ipsum dolor..</p>
+            <button type="button" onclick="addDiv()">add div!</button>
         </div>
     </div>
 </div>
