@@ -26,10 +26,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "wrong";
     } elseif ($row["role"] == "user") {
         $_SESSION["username"] = $username;
-        header("location:userhome.php");
+        header("location:index.php");
     } elseif ($row["role"] == "admin") {
         $_SESSION["username"] = $username;
-        header("location:adminhome.php");
+        header("location:index-admin.php");
 
     }
 }
