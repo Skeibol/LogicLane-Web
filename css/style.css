@@ -3,9 +3,9 @@
     /* src: url('TTSupermolotNeue-Regular.eot'); */
     src: local('TT Supermolot Neue Regular'), local('TTSupermolotNeue-Regular'),
         /* url('TTSupermolotNeue-Regular.eot?#iefix') format('embedded-opentype'), */
-        url('TTSupermolotNeue-Regular.woff2') format('woff2'),
-        url('TTSupermolotNeue-Regular.woff') format('woff'),
-        url('TTSupermolotNeue-Regular.ttf') format('truetype');
+        url('../font/TTSupermolotNeue-Regular.woff2') format('woff2'),
+        url('../font/TTSupermolotNeue-Regular.woff') format('woff'),
+        url('../font/TTSupermolotNeue-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -247,46 +247,6 @@ p {
 
 }
 
-/* CARDS */
-.image-row{
-    height: 500px;
-}
-
-.card-box{
-    
-    background-color: red;
-    display:inline-block;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    margin-top: 10px;
-    width:100%;
-    height:100%;
-    transition: height 0.75s ease-out,margin-bottom 1s ease-out ,margin-top 1s ease-out, transform 1.5s ease-out;
-}
-
-
-.shrink{
-    height:0% !important;
-    margin: 0 !important;
-
-
-}
-
-.expand{
-
-    height:100% !important;
-    margin-bottom:20px !important;
-    margin-top:20px !important;
-    transform:scale(1.05);
-
-
-}
-
-
-.h-30{
-    height:30%;
-}
-
-.h-70{
-    height:70%;
+.h-70 {
+    height: 70%;
 }
