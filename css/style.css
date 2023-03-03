@@ -1,8 +1,252 @@
-.navbar-underline{
-    border-bottom: 5px solid cyan;
+@font-face {
+    font-family: 'TT Supermolot Neue';
+    /* src: url('TTSupermolotNeue-Regular.eot'); */
+    src: local('TT Supermolot Neue Regular'), local('TTSupermolotNeue-Regular'),
+        /* url('TTSupermolotNeue-Regular.eot?#iefix') format('embedded-opentype'), */
+        url('TTSupermolotNeue-Regular.woff2') format('woff2'),
+        url('TTSupermolotNeue-Regular.woff') format('woff'),
+        url('TTSupermolotNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-.centered-navtext{
-    margin-right:50% !important;
+
+body {
+    overflow-x: hidden;
+}
+
+/* NAVBAR-SECTION */
+.navbar-underline {
+    border-bottom: 1.5px solid #0AB59D;
+}
+
+.logo {
+    width: 100px;
+}
+
+.mr-auto {
+    padding-left: 1vw;
+}
+
+.navbar {
+    padding: 1.5vw;
+    position: fixed;
+    width: 100vw;
+
+}
+
+.nav-link {
+    font-family: 'TT Supermolot Neue';
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav-contact .nav-link {
+    color: #0AB59D !important;
+}
+
+ul li {
+    padding: 0 2vw 0 2vw;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HERO-SECTION */
+
+.hero-container {
+    background: linear-gradient(#23292B, #314548);
+    display: flex;
+    /* establish flex container */
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-content {
+    margin: auto;
+    justify-content: center;
+    display: table;
+    padding: 5% 10% 0 10%;
+
+}
+
+.hero-info {
+    width: 50%;
+    display: table-cell;
+    margin: auto;
+    padding-right: 30px;
+}
+
+.hero-title {
+    margin: auto;
+    font-size: 4.2rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.btns {
+    padding-top: 50px;
+}
+
+.btn-contact {
+    background-color: #0AB59D;
+    padding: 12px 50px 12px 50px;
+    border-style: none !important;
+
+}
+
+.btn-contact a {
+    color: white;
+    font-family: 'TT Supermolot Neue';
+    font-size: 1.5rem;
+}
+
+.btn-contact a:hover {
+    text-decoration: none;
+}
+
+.btn-learn-more {
+    border: solid 1.5px #0AB59D !important;
+    padding: 12px 50px 12px 50px;
+    background: none !important;
+    margin-left: 50px;
+}
+
+.btn-learn-more a {
+    color: #0AB59D;
+    font-family: 'TT Supermolot Neue';
+    font-size: 1.5rem;
+}
+
+.btn-learn-more a:hover {
+    text-decoration: none;
+}
+
+.hero-graphic {
+    width: 50%;
+    display: table-cell;
+    margin: auto;
+    vertical-align: middle;
+    padding-left: 10%;
+
+}
+
+.hero-img {
+    width: 100%;
+    object-fit: cover;
+
 }
 
 
+/* ABOUT US-SECTION */
+.about-us-container {
+    width: 100vw;
+    display: flex;
+}
+
+.about-us-content {
+    margin: auto;
+    justify-content: center;
+    display: table;
+    padding: 10% 10% 0 0;
+}
+
+.video-container {
+    text-align: left;
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.video-container svg {
+    /* margin-left: -329px; */
+    object-fit: cover;
+    width: 100%;
+}
+
+.about-us-col {
+    width: 50%;
+    display: table-cell;
+    margin: auto;
+}
+
+.about-us-title {
+    margin-top: 20%;
+    margin-left: -10%;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.about-us-info {
+    padding-top: 5%;
+    padding-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* CARDS-SECTION*/
+.services-container {
+    width: 100%;
+    height: 100vh;
+    padding: 5% 2% 10% 5%;
+}
+
+.services-title {
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 60%;
+    padding-bottom: 2%;
+}
+
+.image-row {
+    height: 90%;
+    padding: 0 3% 0 3%;
+}
+
+.card-box {
+    background-image: url(../images/image.jpeg);
+    /* border: solid 5.5px #0AB59D !important; */
+    filter: grayscale(100%) blur(0px);
+    background-color: #0AB59D;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    /* transition: height 0.5s ease-out, margin-bottom 1s ease-out, margin-top 1s ease-out, transform 1.5s ease-out; */
+    transition: all 1s;
+}
+
+
+.shrink {
+    height: 0% !important;
+    margin: 0 !important;
+}
+
+.expand {
+    height: 100% !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    transform: scale(1.05);
+    background-color: #0AB59D;
+    filter: grayscale(0%) blur(3px);
+
+}
+
+.h-30 {
+    height: 30%;
+
+}
+
+.h-70 {
+    height: 70%;
+}
