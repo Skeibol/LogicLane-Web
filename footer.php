@@ -14,6 +14,7 @@
 <!-- Naše skripte -->
 <script src="js/contentAdder.js"></script>
 <script src="js/addDiv.js"></script>
+<script src="js/imageBox.js"></script>
 </body>
 
 </html>
