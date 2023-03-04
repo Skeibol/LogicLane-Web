@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1740.124" height="1473.137" viewBox="0 0 1740.124 1473.137">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: #0ab59d;
+      }
+    </style>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(-696.597 -1903)">
+    <g id="Polygon_7" data-name="Polygon 7" class="cls-1" transform="matrix(0.848, 0.53, -0.53, 0.848, 1213.798, 1903)">
+      <path class="cls-2" d="M609,0l609,976H0Z"/>
+      <path class="cls-3" d="M 609 2.83355712890625 L 2.7039794921875 974.5 L 1215.296020507813 974.5 L 609 2.83355712890625 M 609 0 L 1218 976 L 0 976 L 609 0 Z"/>
+    </g>
+    <g id="Polygon_6" data-name="Polygon 6" class="cls-1" transform="matrix(0.848, 0.53, -0.53, 0.848, 1403.798, 1903)">
+      <path class="cls-2" d="M609,0l609,976H0Z"/>
+      <path class="cls-3" d="M 609 2.83355712890625 L 2.7039794921875 974.5 L 1215.296020507813 974.5 L 609 2.83355712890625 M 609 0 L 1218 976 L 0 976 L 609 0 Z"/>
+    </g>
+  </g>
+</svg>
