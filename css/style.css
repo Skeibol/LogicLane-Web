@@ -28,6 +28,9 @@ body {
 }
 
 .navbar {
+    top: 0; 
+left: 0;
+right: 0;
     z-index: 123456789;
     backdrop-filter: blur(6px);
     padding: 1.5vw;
@@ -58,6 +61,10 @@ ul li {
 }
 
 p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
