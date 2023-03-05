@@ -47,6 +47,7 @@
 <script src="js/addDiv.js"></script>
 <script src="js/cardScaler.js"></script>
 <script src="js/carousel.js"></script>
+<script src="js/navScroller.js"></script>
 </body>
 
 </html>
