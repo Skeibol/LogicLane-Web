@@ -23,26 +23,56 @@ body {
     width: 100px;
 }
 
+svg g .cls-1,
+svg g .cls-3 {
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke-width: 17.37px;
+}
+
+svg>g>g>.cls-1 {
+    stroke: url(#linear-gradient);
+}
+
+svg>g>g>.cls-3 {
+    stroke: url(#linear-gradient-2);
+}
+
+svg>g>g>.cls-2 {
+    fill: white;
+}
+
+.scrolled>a>svg>g>g>.cls-2 {
+    fill: #25282b;
+}
+
+
+
+
 .mr-auto {
     padding-left: 1vw;
 }
 
 .navbar {
+
     z-index: 123456789;
-    backdrop-filter: blur(6px);
+
+    -webkit-backdrop-filter: blur(6px);
     padding: 1.5vw;
     position: fixed;
     width: 100vw;
-    transition: all 0.6s;
+    transition: all 0.1s;
 
 }
-.scrolled{
-    padding:0.6vw;
+
+.scrolled {
+    padding: 0.6vw;
 }
 
-.scrolled > div > ul > li > a{
-    color:rgb(0, 0, 0);
+.scrolled>div>ul>li>a {
+    color: rgb(0, 0, 0);
 }
+
 .nav-link {
     font-family: 'TT Supermolot Neue';
     font-size: 1.1rem;
@@ -158,7 +188,7 @@ p {
     margin: auto;
     justify-content: center;
     display: table;
-    padding: 10% 10% 0 0;
+    padding: 5% 10% 0 0;
 }
 
 .video-container {
@@ -171,8 +201,24 @@ p {
 .video-container svg {
     /* margin-left: -329px; */
     object-fit: cover;
-    width: 100%;
+    width: 80%;
+    margin-top: -20%;
 }
+
+#my-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: url(#Polygon_2) !important;
+    /* Clip to Polygon_2 */
+}
+
+/* .video-container:hover svg #Polygon_2 {
+    fill: url(../images/typing.mp4) !important;
+} */
 
 .about-us-col {
     width: 50%;
@@ -202,7 +248,6 @@ p {
     margin: auto;
     background-image: url(../images/bcg-3.svg);
     background-repeat: no-repeat;
-    background-size: 54%;
     background-position-x: 100%;
     background-position-y: 100%;
     display: block;
