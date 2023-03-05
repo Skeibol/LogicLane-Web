@@ -29,6 +29,7 @@ include "header.php";
                     <path d="M 425.7518920898438 1366.97900390625 L 1430.683349609375 739.028076171875 L 425.0426940917969 247.7555999755859 L 425.1264343261719 379.6806640625 L 1177.38818359375 746.76513671875 L 1179.819580078125 747.9515991210938 L 1177.525146484375 749.3853149414063 L 425.6582641601563 1219.20361328125 L 425.7518920898438 1366.97900390625 M 331.1500549316406 1274.72119140625 L 422.6571960449219 1217.541259765625 L 422.1276245117188 381.5553588867188 L 330.9670715332031 337.0713500976563 L 331.1500549316406 1274.72119140625 M 424.253173828125 1369.684326171875 L 424.2536010742188 1369.683959960938 L 424.1577453613281 1218.372436523438 L 1176.730346679688 748.1131591796875 L 423.6270141601563 380.6180114746094 L 424.1577453613281 1218.372436523438 L 329.6506042480469 1277.427001953125 L 329.4665832519531 334.6701354980469 L 423.6270141601563 380.6180114746094 L 423.5411682128906 245.3527221679688 L 1433.771484375 738.8673095703125 L 424.2536010742188 1369.683959960938 L 424.253173828125 1369.684326171875 Z" stroke="none" fill="#0ab59d" />
                 </g>
             </svg> -->
+
             <svg xmlns="http://www.w3.org/2000/svg" width="1188.493" height="1119.957" viewBox="0 0 1188.493 1119.957">
                 <g id="Group_17" data-name="Group 17" transform="translate(328.772 -899.426)">
                     <g id="Polygon_2" data-name="Polygon 2"
@@ -38,24 +39,15 @@ include "header.php";
                             d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z"
                             stroke="none" fill="#0ab59d" />
                     </g>
-                    <foreignObject x="90" y="270" width="600" height="400">
-                        <video id="my-video" src="images/typing.mp4" autoplay muted></video>
-                    </foreignObject>
+                    <g id="Polygon_4" data-name="Polygon 4"
+                        transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
+                        <path d="M463,0,926,742H0Z" stroke="none" />
+                        <path
+                            d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z"
+                            stroke="none" fill="#0ab59d" />
+                    </g>
                 </g>
             </svg>
-            <!-- <video id="my-video" src="images/typing.mp4" autoplay muted></video>
-            <svg xmlns="http://www.w3.org/2000/svg" width="1188.493" height="1119.957" viewBox="0 0 1188.493 1119.957">
-                <g id="Group_17" data-name="Group 17" transform="translate(328.772 -899.426)">
-                    <g id="Polygon_2" data-name="Polygon 2" transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
-                        <path d="M388.5,0,777,622H0Z" stroke="none" />
-                        <path d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z" stroke="none" fill="#0ab59d" />
-                    </g>
-                    <g id="Polygon_4" data-name="Polygon 4" transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
-                        <path d="M463,0,926,742H0Z" stroke="none" />
-                        <path d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z" stroke="none" fill="#0ab59d" />
-                    </g>
-                </g>
-            </svg> -->
 
 
         </div>
@@ -115,27 +107,27 @@ include "header.php";
     <h2 class="services-title" id="services">
         Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
     <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img class="card-box h-30" src="images/NN.jpg" class="w-100 shadow-1-strong rounded mb-4"
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 card-row">
+            <img class="card-box h-30" src="images/samples/sample1.jpg" class="w-100 shadow-1-strong rounded mb-4"
                 alt="Boat on Calm Water" />
 
-            <img class="card-box h-70" src="images/NN.jpg" class="w-100 shadow-1-strong rounded mb-4"
+            <img class="card-box h-70" src="images/samples/sample2.jpg" class="w-100 shadow-1-strong rounded mb-4"
                 alt="Wintry Mountain Landscape" />
         </div>
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img class="card-box h-70" src="images/NN.jpg" class="w-100 shadow-1-strong rounded mb-4"
+        <div class="col-lg-4 mb-4 mb-lg-0 card-row">
+            <img class="card-box h-70" src="images/samples/sample3.jpg" class="w-100 shadow-1-strong rounded mb-4"
                 alt="Mountains in the Clouds" />
 
-            <img class="card-box h-30" src="images/NN.jpg" class="w-100 shadow-1-strong rounded mb-4"
+            <img class="card-box h-30" src="images/samples/sample4.jpg" class="w-100 shadow-1-strong rounded mb-4"
                 alt="Boat on Calm Water" />
         </div>
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img class="card-box h-30" src="images/NN.jpg" class="w-100 shadow-1-strong rounded mb-4"
+        <div class="col-lg-4 mb-4 mb-lg-0 card-row">
+            <img class="card-box h-30" src="images/samples/sample5.jpg" class="w-100 shadow-1-strong rounded mb-4"
                 alt="Waves at Sea" />
 
-            <img class="card-box h-70" src="images/NN.jpg" class="w-100 shadow-1-strong rounded mb-4"
+            <img class="card-box h-70" src="images/samples/sample6.jpg" class="w-100 shadow-1-strong rounded mb-4"
                 alt="Yosemite National Park" />
         </div>
     </div>
@@ -163,7 +155,9 @@ include "header.php";
     </div>
 
 </div>
-
+<div class="bcg-1">
+    <img src="images/logo/bg-line-top.svg" alt="" class="bcg">
+</div>
 <div class="carousel">
     <div class="carousel--left carousel--container">
         <button class="switch-up"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
@@ -180,16 +174,16 @@ include "header.php";
         </div>
 
         <div class="carousel--slide carousel--pos1">
-            <img class="carousel--image" src="images/NN.jpg" alt="slika ines kako je mala beba">
+            <img class="carousel--image" src="images/samples/sample1.jpg" alt="slika ines kako je mala beba">
         </div>
         <div class="carousel--slide carousel--pos2">
-            <img class="carousel--image" src="images/NN.jpg" alt="slika ines kako je mala beba">
+            <img class="carousel--image" src="images/samples/sample2.jpg" alt="slika ines kako je mala beba">
         </div>
         <div class="carousel--slide carousel--pos3">
-            <img class="carousel--image" src="images/NN.jpg" alt="slika ines kako je mala beba">
+            <img class="carousel--image" src="images/samples/sample3.jpg" alt="slika ines kako je mala beba">
         </div>
         <div class="carousel--slide carousel--pos4">
-            <img class="carousel--image" src="images/NN.jpg" alt="slika ines kako je mala beba">
+            <img class="carousel--image" src="images/samples/sample4.jpg" alt="slika ines kako je mala beba">
         </div>
         <button class="switch-down"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_10" data-name="Polygon 10" transform="translate(73 72) rotate(-180)" fill="none">
@@ -209,6 +203,12 @@ include "header.php";
             elit.</p>
     </div>
 </div>
+<div class="bcg">
+    <img src="images/logo/bg-line-bottom.svg" alt="" class="bcg">
+</div>
+<h1 class="quote">
+    <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </q>
+</h1>
 
 
 
