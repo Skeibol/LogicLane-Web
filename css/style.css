@@ -38,7 +38,7 @@ body {
 
 .nav-link {
     font-family: 'TT Supermolot Neue';
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: white;
 }
 
@@ -81,7 +81,7 @@ p {
 
 .hero-title {
     margin: auto;
-    font-size: 4.2rem;
+    font-size: 3.8rem;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -101,7 +101,7 @@ p {
 .btn-contact a {
     color: white;
     font-family: 'TT Supermolot Neue';
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .btn-contact a:hover {
@@ -118,7 +118,7 @@ p {
 .btn-learn-more a {
     color: #0AB59D;
     font-family: 'TT Supermolot Neue';
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .btn-learn-more a:hover {
@@ -176,7 +176,7 @@ p {
 .about-us-title {
     margin-top: 20%;
     margin-left: -10%;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
@@ -185,7 +185,7 @@ p {
     padding-top: 5%;
     padding-left: 10%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* CARDS-SECTION*/
@@ -311,12 +311,12 @@ p {
 .carousel--left {
     position: relative;
     margin: 5%;
-    width: 50%;
+    width: 60%;
 }
 
 .carousel--right {
     margin: 5%;
-    width: 50%;
+    width: 40%;
 }
 
 .carousel--image {
@@ -331,8 +331,8 @@ p {
     height: 35%;
     width: 90%;
     opacity: 100%;
-    transition-property: left, top, opacity, height;
-    transition-duration: 0.8s, 0.8s, 0.3s, 0.8s;
+    transition-property: left, top, opacity, filter, height;
+    transition-duration: 0.8s, 0.8s, 0.3s, 0.3s, 0.8s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
     z-index: 0;
@@ -351,7 +351,8 @@ p {
     height: 20%;
     left: 0%;
     top: 0%;
-    opacity: 0.7;
+    opacity: 0.3;
+    filter: grayscale(100%);
 }
 
 .carousel--pos2 {
@@ -361,10 +362,11 @@ p {
 }
 
 .carousel--pos3 {
-    opacity: 0.7;
+    opacity: 0.3;
     height: 20%;
     left: 0%;
     top: 70%;
+    filter: grayscale(100%);
 }
 
 .carousel--pos4 {
@@ -377,15 +379,61 @@ p {
 .carousel--info {
     vertical-align: middle;
     margin: auto;
-    padding: 0 5% 0 5%;
+    padding: 0 5% 0 0;
 }
 
 .carousel--header {
     margin-top: -50px;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
+    padding-bottom: 10px;
 }
 
-.switch {
+.switch-up {
     position: absolute;
     z-index: 123;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    left: 40%;
+    top: -6%;
+}
+
+.switch-up:hover, .switch-up:focus, .switch-up:active {
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+}
+
+.switch-up svg {
+    width: 60px;
+    transition: all 0.3s ease-in-out;
+}
+
+.switch-up svg:hover {
+    transform: scale(1.2);
+}
+
+.switch-down {
+    position: absolute;
+    z-index: 123;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    left: 40%;
+    top: 86%;
+}
+
+.switch-down:hover, .switch-down:focus, .switch-down:active {
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+}
+
+.switch-down svg {
+    width: 60px;
+    transition: all 0.3s ease-in-out;
+}
+
+.switch-down svg:hover {
+    transform: scale(1.2);
 }

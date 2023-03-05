@@ -141,9 +141,19 @@ include "header.php";
 
 <div class="carousel">
     <div class="carousel--left carousel--container">
+        <button class="switch-up"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
+                <g id="Polygon_9" data-name="Polygon 9" fill="none">
+                    <path d="M36.5,0,73,72H0Z" stroke="none" />
+                    <path
+                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
+                        stroke="none" fill="#0ab59d" />
+                </g>
+            </svg>
+        </button>
         <div class="carousel--slide carousel--pos0">
             <img class="carousel--image" src="images/image.jpeg" alt="slika ines kako je mala beba">
         </div>
+
         <div class="carousel--slide carousel--pos1">
             <img class="carousel--image" src="images/image.jpeg" alt="slika ines kako je mala beba">
         </div>
@@ -156,10 +166,18 @@ include "header.php";
         <div class="carousel--slide carousel--pos4">
             <img class="carousel--image" src="images/image.jpeg" alt="slika ines kako je mala beba">
         </div>
-        <button class="switch">Click me</button>
+        <button class="switch-down"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
+                <g id="Polygon_10" data-name="Polygon 10" transform="translate(73 72) rotate(-180)" fill="none">
+                    <path d="M36.5,0,73,72H0Z" stroke="none" />
+                    <path
+                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
+                        stroke="none" fill="#0ab59d" />
+                </g>
+            </svg>
+        </button>
     </div>
     <div class="carousel--right carousel--container carousel--info">
-        <h1 class="carousel--header">Projekt</h1>
+        <h2 class="carousel--header">Projekt</h2>
         <p class="carousel--text">Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non
             dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh
             eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend
