@@ -406,11 +406,12 @@ p {
 
 .switch-up svg {
     width: 60px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
-.switch-up svg:hover {
-    transform: scale(1.2);
+.switch-up:hover svg g {
+    /* transform: scale(1.2); */
+    fill: #0AB59D;
 }
 
 .switch-down {
@@ -431,11 +432,12 @@ p {
 
 .switch-down svg {
     width: 60px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
-.switch-down svg:hover {
-    transform: scale(1.2);
+.switch-down:hover svg g {
+    /* transform: scale(1.2); */
+    fill: #0AB59D;
 }
 
 
