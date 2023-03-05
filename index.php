@@ -20,7 +20,7 @@ include "header.php";
         </div>
     </div>
 </div>
-<div class="about-us-container">
+<div class="about-us-container" id="about-us">
     <div class="about-us-content">
         <div class="video-container">
             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="1104.305" height="1124.332" viewBox="0 0 1104.305 1124.332">
@@ -52,7 +52,7 @@ include "header.php";
 
         </div>
         <div class="about-us-col">
-            <h2 class="about-us-title" id="about-us">
+            <h2 class="about-us-title">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h2>
             <p class="about-us-info">
@@ -103,8 +103,8 @@ include "header.php";
 </div> -->
 
 <!-- Gallery -->
-<div class="services-container">
-    <h2 class="services-title" id="services">
+<div class="services-container" id="services">
+    <h2 class="services-title">
         Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
     <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 card-row">
@@ -158,7 +158,7 @@ include "header.php";
 <div class="bcg-1">
     <img src="images/logo/bg-line-top.svg" alt="" class="bcg">
 </div>
-<div class="carousel">
+<div class="carousel" id="projects">
     <div class="carousel--left carousel--container">
         <button class="switch-up"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_9" data-name="Polygon 9" fill="none">
@@ -196,7 +196,7 @@ include "header.php";
         </button>
     </div>
     <div class="carousel--right carousel--container carousel--info">
-        <h2 class="carousel--header" id="projects">Projekt</h2>
+        <h2 class="carousel--header">Projekt</h2>
         <p class="carousel--text">Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non
             dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh
             eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend

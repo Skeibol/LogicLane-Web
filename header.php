@@ -74,16 +74,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#about-us">About us</a>
+                    <a class="nav-link" href="#about-us">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#services">Services</a>
+                    <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#projects">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#FAQ">FAQ</a>
+                    <a class="nav-link" href="#FAQ">FAQ</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
