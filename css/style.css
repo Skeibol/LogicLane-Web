@@ -1,9 +1,12 @@
 :root {
   --black: #000000;
   --white: #ffffff;
-  --color-primary: #034949;
-  --color-primary-dimmed: #10302e;
-  --secondary: #ee6f06;
+  --gray: #e4e4e4;
+  --color-primary: #0981f1;
+  --color-primary-dimmed: #20619e;
+  --color-primary-background-start: #6b7eb3;
+  --color-primary-background: #4b4f5a;
+  --color-secondary: #ee6f06;
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "TT Supermolot Neue";
   --font-size-medium: 1.2rem;
@@ -18,6 +21,11 @@ a {
   font-family: var(--font-secondary);
   color: var(--white);
   font-size: var(--font-size-medium);
+}
+
+a:hover,
+a:focus {
+  color: var(--color-secondary);
 }
 
 p {
@@ -56,6 +64,7 @@ h3 {
 
 body {
   overflow-x: hidden;
+  background-color: var(--color-primary-background);
 }
 
 .svg--fill {
@@ -132,7 +141,7 @@ svg>g>g>.cls-2 {
 }
 
 .nav-contact .nav-link {
-  color: var(--color-primary-dimmed) !important;
+  color: var(--color-secondary) !important;
 }
 
 ul li {
@@ -142,8 +151,8 @@ ul li {
 /* HERO-SECTION */
 
 .hero-container {
-  background: linear-gradient(var(--color-primary),
-      var(--color-primary-dimmed));
+  background: linear-gradient(var(--color-primary-background-start),
+      var(--color-primary-background));
   display: flex;
   /* establish flex container */
   width: 100vw;
@@ -385,7 +394,7 @@ ul li {
   display: flex;
   position: relative;
   width: 100%;
-  background-color: var(--white);
+  background-color: var(--gray);
 }
 
 .carousel--left {
@@ -553,21 +562,20 @@ ul li {
 .accordion--panel {
   padding: 0 18px;
   background-color: var(--white);
-  max-height: 0;
+  max-height: 0%;
   overflow: hidden;
-  transition: max-height 1s ease-out;
+  transition: max-height 0.7s ease-in;
 }
 
 .accordion--active,
 .accordion--section:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 .accordion--panel {
-  padding: 24px;
   margin-bottom: 10px;
   border-radius: 5px;
-  background-color: var(--color-primary-dimmed);
+  background-color: var(--color-secondary);
   outline-style: solid 2px;
   display: none;
   overflow: hidden;
