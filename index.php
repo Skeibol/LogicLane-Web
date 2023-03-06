@@ -1137,6 +1137,55 @@ P5x9L/flL/8An26Z/Hu2wCH9YEfiSWWiT8j3rPuhf/8Al1/7Mvrd+XfpnZd5afy/Cduz/9k="
     <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </q>
 </h1>
 
+<div class="accordion--container">
+    <h1>FAQ</h1>
+    <button class="accordion--section">Section 1</button>
+    <div class="accordion--panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
+            odio tenetur maxime facere autem tempore facilis vel, debitis,
+            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
+            Dolores, similique?
+        </p>
+    </div>
+    <button class="accordion--section">Section 2</button>
+    <div class="accordion--panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
+            odio tenetur maxime facere autem tempore facilis vel, debitis,
+            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
+            Dolores, similique?
+        </p>
+    </div>
+    <button class="accordion--section">Section 3</button>
+    <div class="accordion--panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
+            odio tenetur maxime facere autem tempore facilis vel, debitis,
+            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
+            Dolores, similique?
+        </p>
+    </div>
+    <button class="accordion--section">Section 4</button>
+    <div class="accordion--panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
+            odio tenetur maxime facere autem tempore facilis vel, debitis,
+            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
+            Dolores, similique?
+        </p>
+    </div>
+    <button class="accordion--section">Section 5</button>
+    <div class="accordion--panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
+            odio tenetur maxime facere autem tempore facilis vel, debitis,
+            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
+            Dolores, similique?
+        </p>
+    </div>
+</div>
+
 
 
 
