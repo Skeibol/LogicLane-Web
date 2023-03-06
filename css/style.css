@@ -21,6 +21,11 @@ a {
   color: var(--white);
   font-size: var(--font-size-medium);
 }
+
+a:hover,
+a:focus {
+  color: var(--color-secondary);
+}
 p {
   font-family: var(--font-primary);
 }
@@ -556,21 +561,20 @@ ul li {
 .accordion--panel {
   padding: 0 18px;
   background-color: var(--white);
-  max-height: 0;
+  max-height: 0%;
   overflow: hidden;
-  transition: max-height 1s ease-out;
+  transition: max-height 0.7s ease-in;
 }
 
 .accordion--active,
 .accordion--section:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 .accordion--panel {
-  padding: 24px;
   margin-bottom: 10px;
   border-radius: 5px;
-  background-color: var(--color-primary-dimmed);
+  background-color: var(--color-secondary);
   outline-style: solid 2px;
   display: none;
   overflow: hidden;
