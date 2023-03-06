@@ -6,7 +6,7 @@
   --color-primary-dimmed: #20619e;
   --color-primary-background-start: #6b7eb3;
   --color-primary-background: #4b4f5a;
-  --secondary: #ee6f06;
+  --color-secondary: #ee6f06;
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "TT Supermolot Neue";
   --font-size-medium: 1.2rem;
@@ -133,7 +133,7 @@ svg > g > g > .cls-2 {
 }
 
 .nav-contact .nav-link {
-  color: var(--color-primary-dimmed) !important;
+  color: var(--color-secondary) !important;
 }
 
 ul li {
