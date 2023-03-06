@@ -108,8 +108,9 @@ include "header.php";
         Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
     <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 card-row">
-            <img class="card-box h-30" src="images/samples/sample1.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water" />
+            <div class="card-box h-30">
+                <p>Lorem Ipsum</p>
+            </div>
 
             <img class="card-box h-70" src="images/samples/sample2.jpg" class="w-100 shadow-1-strong rounded mb-4"
                 alt="Wintry Mountain Landscape" />
