@@ -2,12 +2,11 @@
 $title = "Logic Lane - AI rješenja";
 include "header.php";
 ?>
-
 <div class="hero-container">
     <div class="hero-content">
         <div class="hero-info">
             <h1 class="hero-title">
-                Lorem ipsum dolor sit amet, coensectetur adipiscing <br> elit.
+                Lorem ipsum dolor sit amet, coensectetur adipiscing elit.
             </h1>
             <div class="btns">
                 <button class="btn-contact"><a href="contact.php" class="contact-hero">Contact us</a></button>
@@ -16,8 +15,11 @@ include "header.php";
             </div>
         </div>
         <div class="hero-graphic">
-            <img class="hero-img" src="images/logo/logiclane-nobcg.png" alt="">
+            <img class="hero-img" src="images/logo/logo-new.svg" alt="">
         </div>
+    </div>
+    <div class="bcg-hero">
+        <img class="svg--fill" src="images/top-hero.svg" alt="" class="bcg">
     </div>
 </div>
 <div class="about-us-container" id="about-us">
@@ -27,19 +29,13 @@ include "header.php";
 
             <svg xmlns="http://www.w3.org/2000/svg" width="1188.493" height="1119.957" viewBox="0 0 1188.493 1119.957">
                 <g id="Group_17" data-name="Group 17" transform="translate(328.772 -899.426)">
-                    <g id="Polygon_2" data-name="Polygon 2"
-                        transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
+                    <g id="Polygon_2" data-name="Polygon 2" transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
                         <path d="M388.5,0,777,622H0Z" stroke="none" />
-                        <path class="svg--fill"
-                            d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z"
-                            stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill" d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z" stroke="none" fill="#0ab59d" />
                     </g>
-                    <g id="Polygon_4" data-name="Polygon 4"
-                        transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
+                    <g id="Polygon_4" data-name="Polygon 4" transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
                         <path d="M463,0,926,742H0Z" stroke="none" />
-                        <path class="svg--fill"
-                            d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z"
-                            stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill" d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z" stroke="none" fill="#0ab59d" />
                     </g>
                 </g>
             </svg>
@@ -62,42 +58,7 @@ include "header.php";
     </div>
 </div>
 
-<!-- Gallery -->
-
-
-
-<!-- <svg xmlns="http://www.w3.org/2000/svg" width="1223.662" height="1150.417"
-            viewBox="0 0 1223.662 1150.417">
-            <g id="Exclusion_1" data-name="Exclusion 1" transform="translate(0 -322.721)" fill="none">
-                <path
-                    d="M1222.923,1473.138v0h0L1033,1354.459l.6-938.888,190.06-92.85-.74,1150.415Zm-190,0v0h0L0,827.7,1033.663,322.721l-.06,92.85L190,827.7l843,526.764-.076,118.677Z"
-                    stroke="none" />
-                <path
-                    d="M 1221.424682617188 1470.431396484375 L 1222.160888671875 325.1241455078125 L 1035.102294921875 416.5076293945313 L 1034.499755859375 1353.6279296875 L 1221.424682617188 1470.431396484375 M 1031.424682617188 1470.431274414063 L 1031.498657226563 1355.290161132813 L 189.2049255371094 828.9671020507813 L 186.9118499755859 827.5343017578125 L 189.3413848876953 826.3473510742188 L 1032.103515625 414.6338806152344 L 1032.1611328125 325.1241455078125 L 3.087936162948608 827.8558959960938 L 1031.424682617188 1470.431274414063 M 1222.922973632813 1473.13818359375 L 1222.922973632813 1473.136352539063 L 1222.921264648438 1473.135498046875 L 1222.92138671875 1473.135375976563 L 1032.999267578125 1354.459106445313 L 1033.602905273438 415.5707702636719 L 1223.662475585938 322.7212219238281 L 1222.922973632813 1473.136352539063 L 1222.922973632813 1473.13818359375 Z M 1032.922973632813 1473.13818359375 L 1032.922973632813 1473.136352539063 L 1032.92138671875 1473.135498046875 L 1032.921508789063 1473.135375976563 L 7.02373790772981e-06 827.695068359375 L 1033.66259765625 322.7212219238281 L 1033.602905273438 415.5707702636719 L 189.9998474121094 827.695068359375 L 1032.999267578125 1354.459106445313 L 1032.922973632813 1473.136352539063 L 1032.922973632813 1473.13818359375 Z"
-                    stroke="none" fill="#0ab59d" />
-            </g>
-        </svg>  -->
-<!-- <div class="mt-4">
-    <h2 class="services-title">
-        Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
-    <div class="row image-row mx-5">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 image-column">
-            <div class="card-box h-30"></div>
-            <div class="card-box h-70"></div>
-        </div>
-        <div class="col-lg-4 mb-4 mb-lg-0 image-column">
-            <div class="card-box h-70"></div>
-            <div class="card-box h-30"></div>
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0 image-column">
-            <div class="card-box h-30"></div>
-            <div class="card-box h-70"></div>
-        </div>
-    </div>
-</div> -->
-
-<!-- Gallery -->
+<!-- Services -->
 <div class="services-container" id="services">
     <h2 class="services-title">
         Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
@@ -107,28 +68,24 @@ include "header.php";
                 <p>Lorem Ipsum</p>
             </div>
 
-            <img class="card-box h-70" src="images/samples/sample2.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Wintry Mountain Landscape" />
+            <img class="card-box h-70" src="images/samples/sample2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0 card-row">
-            <img class="card-box h-70" src="images/samples/sample3.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Mountains in the Clouds" />
+            <img class="card-box h-70" src="images/samples/sample3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
 
-            <img class="card-box h-30" src="images/samples/sample4.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water" />
+            <img class="card-box h-30" src="images/samples/sample4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0 card-row">
-            <img class="card-box h-30" src="images/samples/sample5.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Waves at Sea" />
+            <img class="card-box h-30" src="images/samples/sample5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
 
-            <img class="card-box h-70" src="images/samples/sample6.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Yosemite National Park" />
+            <img class="card-box h-70" src="images/samples/sample6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
         </div>
     </div>
 </div>
-<!-- Gallery -->
+
+<!-- Technology -->
 <div class="tech-container">
     <div class="tech-content">
         <div class="tech-items">
@@ -154,15 +111,14 @@ include "header.php";
 <div class="bcg-1">
     <img class="svg--fill" src="images/logo/bg-line-top.svg" alt="" class="bcg">
 </div>
-<!-- CAROUSEL SVG -->
+
+<!-- CAROUSEL -->
 <div class="carousel" id="projects">
     <div class="carousel--left carousel--container">
         <button class="switch-up"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_9" data-name="Polygon 9" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill"
-                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
-                        stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
@@ -185,9 +141,7 @@ include "header.php";
         <button class="switch-down"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_10" data-name="Polygon 10" transform="translate(73 72) rotate(-180)" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill"
-                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
-                        stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
@@ -206,55 +160,6 @@ include "header.php";
 <h1 class="quote">
     <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </q>
 </h1>
-
-<div class="accordion--container">
-    <h1>FAQ</h1>
-    <button class="accordion--section">Section 1</button>
-    <div class="accordion--panel">
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
-            odio tenetur maxime facere autem tempore facilis vel, debitis,
-            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
-            Dolores, similique?
-        </p>
-    </div>
-    <button class="accordion--section">Section 2</button>
-    <div class="accordion--panel">
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
-            odio tenetur maxime facere autem tempore facilis vel, debitis,
-            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
-            Dolores, similique?
-        </p>
-    </div>
-    <button class="accordion--section">Section 3</button>
-    <div class="accordion--panel">
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
-            odio tenetur maxime facere autem tempore facilis vel, debitis,
-            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
-            Dolores, similique?
-        </p>
-    </div>
-    <button class="accordion--section">Section 4</button>
-    <div class="accordion--panel">
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
-            odio tenetur maxime facere autem tempore facilis vel, debitis,
-            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
-            Dolores, similique?
-        </p>
-    </div>
-    <button class="accordion--section">Section 5</button>
-    <div class="accordion--panel">
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
-            odio tenetur maxime facere autem tempore facilis vel, debitis,
-            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
-            Dolores, similique?
-        </p>
-    </div>
-</div>
 
 
 
