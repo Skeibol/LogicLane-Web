@@ -1,8 +1,11 @@
 :root {
   --black: #000000;
   --white: #ffffff;
-  --color-primary: #09f12f;
-  --color-primary-dimmed: #0b6325;
+  --gray: #e4e4e4;
+  --color-primary: #0981f1;
+  --color-primary-dimmed: #20619e;
+  --color-primary-background-start: #6b7eb3;
+  --color-primary-background: #4b4f5a;
   --secondary: #ee6f06;
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "TT Supermolot Neue";
@@ -54,6 +57,7 @@ h3 {
 
 body {
   overflow-x: hidden;
+  background-color: var(--color-primary-background);
 }
 
 .svg--fill {
@@ -140,8 +144,8 @@ ul li {
 
 .hero-container {
   background: linear-gradient(
-    var(--color-primary),
-    var(--color-primary-dimmed)
+    var(--color-primary-background-start),
+    var(--color-primary-background)
   );
   display: flex;
   /* establish flex container */
@@ -384,7 +388,7 @@ ul li {
   display: flex;
   position: relative;
   width: 100%;
-  background-color: var(--white);
+  background-color: var(--gray);
 }
 
 .carousel--left {
