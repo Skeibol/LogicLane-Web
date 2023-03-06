@@ -29,13 +29,19 @@ include "header.php";
 
             <svg xmlns="http://www.w3.org/2000/svg" width="1188.493" height="1119.957" viewBox="0 0 1188.493 1119.957">
                 <g id="Group_17" data-name="Group 17" transform="translate(328.772 -899.426)">
-                    <g id="Polygon_2" data-name="Polygon 2" transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
+                    <g id="Polygon_2" data-name="Polygon 2"
+                        transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
                         <path d="M388.5,0,777,622H0Z" stroke="none" />
-                        <path class="svg--fill" d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z" stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill"
+                            d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z"
+                            stroke="none" fill="#0ab59d" />
                     </g>
-                    <g id="Polygon_4" data-name="Polygon 4" transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
+                    <g id="Polygon_4" data-name="Polygon 4"
+                        transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
                         <path d="M463,0,926,742H0Z" stroke="none" />
-                        <path class="svg--fill" d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z" stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill"
+                            d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z"
+                            stroke="none" fill="#0ab59d" />
                     </g>
                 </g>
             </svg>
@@ -68,19 +74,24 @@ include "header.php";
                 <p>Lorem Ipsum</p>
             </div>
 
-            <img class="card-box h-70" src="images/samples/sample2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+            <img class="card-box h-70" src="images/samples/sample2.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                alt="Wintry Mountain Landscape" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0 card-row">
-            <img class="card-box h-70" src="images/samples/sample3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+            <img class="card-box h-70" src="images/samples/sample3.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                alt="Mountains in the Clouds" />
 
-            <img class="card-box h-30" src="images/samples/sample4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+            <img class="card-box h-30" src="images/samples/sample4.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                alt="Boat on Calm Water" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0 card-row">
-            <img class="card-box h-30" src="images/samples/sample5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+            <img class="card-box h-30" src="images/samples/sample5.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                alt="Waves at Sea" />
 
-            <img class="card-box h-70" src="images/samples/sample6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+            <img class="card-box h-70" src="images/samples/sample6.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                alt="Yosemite National Park" />
         </div>
     </div>
 </div>
@@ -118,7 +129,9 @@ include "header.php";
         <button class="switch-up"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_9" data-name="Polygon 9" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill"
+                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
+                        stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
@@ -141,7 +154,9 @@ include "header.php";
         <button class="switch-down"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_10" data-name="Polygon 10" transform="translate(73 72) rotate(-180)" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill"
+                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
+                        stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
@@ -160,6 +175,56 @@ include "header.php";
 <h1 class="quote">
     <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </q>
 </h1>
+
+<div class="accordion--container">
+    <h1>FAQ</h1>
+    <button class="accordion--section">Section 1</button>
+    <div class="accordion--panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
+            odio tenetur maxime facere autem tempore facilis vel, debitis,
+            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
+            Dolores, similique?
+        </p>
+    </div>
+    <button class="accordion--section">Section 2</button>
+    <div class="accordion--panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
+            odio tenetur maxime facere autem tempore facilis vel, debitis,
+            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
+            Dolores, similique?
+        </p>
+    </div>
+    <button class="accordion--section">Section 3</button>
+    <div class="accordion--panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
+            odio tenetur maxime facere autem tempore facilis vel, debitis,
+            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
+            Dolores, similique?
+        </p>
+    </div>
+    <button class="accordion--section">Section 4</button>
+    <div class="accordion--panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
+            odio tenetur maxime facere autem tempore facilis vel, debitis,
+            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
+            Dolores, similique?
+        </p>
+    </div>
+    <button class="accordion--section">Section 5</button>
+    <div class="accordion--panel">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
+            odio tenetur maxime facere autem tempore facilis vel, debitis,
+            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
+            Dolores, similique?
+        </p>
+    </div>
+</div>
+
 
 
 
