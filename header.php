@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-underline navbar-expand-lg">
+    <nav class="navbar navbar-underline navbar-expand-lg navbar-filter">
         <a class="navbar-brand mr-auto" href="#">
             <!-- <img src="images/logo/logic-lane-dark.svg" alt="LogicLane logo" class="logo"> -->
             <svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
