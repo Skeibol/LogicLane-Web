@@ -1,3 +1,5 @@
+import projects from "../js/data.json" assert{type: "json"}
+
 function getSlides() {
     return $(".carousel--slide");
 }
@@ -50,49 +52,47 @@ function shiftClasses(slides,classes,reverse=false){
         }
     }
 }
-
-var a = fetch("js/data.json")
-      .then(res => res.json())
-      .then(json => {
-          // Do whatever you want
-          console.log(json)
-          return json;
-      });
-console.log(a)
-function readTextFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function() {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
-            callback(rawFile.responseText);
+function setText(){
+    $(".carousel--header").text(projects[projectIndex].title)
+    $(".carousel--text").text(projects[projectIndex].content)
+}
+function switchText(reverse=false){
+    if(reverse){
+        projectIndex-=1;
+        if (projectIndex<0){    
+            projectIndex = numProjects - 1;
         }
     }
-    rawFile.send(null);
+    else{
+        projectIndex+=1;
+        if(projectIndex==numProjects){
+            projectIndex = 0;
+        }
+    }
+    $(".carousel--header").text(projects[projectIndex].title)
+    $(".carousel--text").text(projects[projectIndex].content)
 }
 
-//usage:
-readTextFile("js/data.json", function(text){
-    var data = JSON.parse(text);
-    //console.log(data);
-});
+function setImages(){
+    for(var i = 0; i<projects.length; i++){
+        $("."+classes[i]).children()[0].src = projects[i].image
+    }
+}
 
-//console.log(data);
+var numProjects = projects.length;
+var projectIndex = 0;
 var classes = ["carousel--pos0",
     "carousel--pos1",
     "carousel--pos2",
     "carousel--pos3",
     "carousel--pos4"]
-var textIndex = 0;
-var texts = ["Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend elit.", "2. Ines beba", "3. ines mrklica", "4. intropo", "5. beba radi html"]
-//$(".carousel--text").text(texts[textIndex])
-//textIndex += 1;
+
+
+setText();
+setImages();
+
 $(".switch-down").click(function () {
-    //$(".carousel--text").text(texts[textIndex])
-    //textIndex += 1;
-    //if (textIndex == texts.length) {
-    //    textIndex = 0;
-    //}
+    switchText();
     var slides = getSlides();
     shiftClasses(slides,classes);
     classes = shiftList(classes);
@@ -100,11 +100,7 @@ $(".switch-down").click(function () {
 
 
 $(".switch-up").click(function () {
-    //$(".carousel--text").text(texts[textIndex])
-    //textIndex += 1;
-    //if (textIndex == texts.length) {
-    //    textIndex = 0;
-    //}
+    switchText(true);
     var slides = getSlides();
     shiftClasses(slides,classes,true);
     classes = shiftList(classes,true);
