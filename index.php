@@ -185,20 +185,20 @@ include "header.php";
             </svg>
         </button>
         <div class="carousel--slide carousel--pos0">
-            <img class="carousel--image" src="images/NN.jpg" alt="slika ines kako je mala beba">
+            <img class="carousel--image" src="" alt="slika ines kako je beba velika">
         </div>
 
         <div class="carousel--slide carousel--pos1">
-            <img class="carousel--image" src="images/samples/sample1.jpg" alt="slika ines kako je mala beba">
+            <img class="carousel--image" src="" alt="slika ines kako je beba velika">
         </div>
         <div class="carousel--slide carousel--pos2">
-            <img class="carousel--image" src="images/samples/sample2.jpg" alt="slika ines kako je mala beba">
+            <img class="carousel--image" src="" alt="slika ines kako je beba velika">
         </div>
         <div class="carousel--slide carousel--pos3">
-            <img class="carousel--image" src="images/samples/sample3.jpg" alt="slika ines kako je mala beba">
+            <img class="carousel--image" src="" alt="slika ines kako je beba velika">
         </div>
         <div class="carousel--slide carousel--pos4">
-            <img class="carousel--image" src="images/samples/sample4.jpg" alt="slika ines kako je mala beba">
+            <img class="carousel--image" src="" alt="slika ines kako je beba velika">
         </div>
         <button class="switch-down"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_10" data-name="Polygon 10" transform="translate(73 72) rotate(-180)" fill="none">
@@ -209,11 +209,8 @@ include "header.php";
         </button>
     </div>
     <div class="carousel--right carousel--container carousel--info">
-        <h3 class="carousel--header">Projekt</h3>
-        <p class="carousel--text">Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non
-            dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh
-            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend
-            elit.</p>
+        <h3 class="carousel--header"></h3>
+        <p class="carousel--text"></p>
     </div>
 </div>
 <div class="bcg">

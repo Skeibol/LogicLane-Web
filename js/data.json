@@ -1,1 +1,27 @@
-[{"name" : "Ashwin", "age" : "20"},{"name" : "Abhinandan", "age" : "20"}]
+[
+    {
+       "image":"images/samples/sample1.jpg",
+       "title":"1 Face Detection",
+       "content":"Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non\n            dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh\n            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend\n            elit."
+    },
+    {
+       "image":"images/samples/NN.jpg",
+       "title":"2 Self Driving Car",
+       "content":"Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non\n            dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh\n            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend\n            elit."
+    },
+    {
+       "image":"images/samples/sample2.jpg",
+       "title":"3 ChatBot",
+       "content":"Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non\n            dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh\n            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend\n            elit."
+    },
+    {
+       "image":"images/samples/sample3.jpg",
+       "title":"4 Image Processing",
+       "content":"Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non\n            dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh\n            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend\n            elit."
+    },
+    {
+       "image":"images/samples/sample4.jpg",
+       "title":"4 Pose Recognition",
+       "content":"Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non\n            dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh\n            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend\n            elit."
+    }
+ ]
