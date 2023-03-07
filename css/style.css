@@ -169,7 +169,7 @@ ul li {
 }
 
 .hero-info {
-  width: 100%;
+  width: 40%;
   display: table-cell;
   margin: auto;
   padding-right: 30px;
@@ -182,9 +182,10 @@ ul li {
 }
 
 .hero-graphic {
-  width: 100%;
+  width: 60%;
   margin: auto;
   vertical-align: middle;
+  display: flex;
   /* padding-left: 10%; */
 }
 
@@ -223,11 +224,17 @@ ul li {
   text-decoration: none;
 }
 
-/* .hero-img {
-  width: 100%;
-  object-fit: cover;
-  margin-right: 0 !important;
-} */
+.hero-img {
+
+  width: 60%;
+}
+
+.hero-img-static {
+  position: absolute;
+  left: 64%;
+  top: 30%;
+  width: 35%;
+}
 
 /* ABOUT US-SECTION */
 .about-us-container {

@@ -20,7 +20,7 @@ include "header.php";
                 <img src="images/logo/logo-new-loop.svg" />
 
             </object>
-            <object class="hero-img" type="image/svg+xml" data="images/logo/logo-new-no-loop.svg">
+            <object class="hero-img-static" type="image/svg+xml" data="images/logo/logo-new-no-loop.svg">
 
                 <img src="images/logo/logo-new-no-loop.svg" />
 
