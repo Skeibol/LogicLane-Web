@@ -49,7 +49,7 @@
 <script src="js/carousel.js"></script>
 <script src="js/navScroller.js"></script>
 <script src="js/blurFix.js"></script>
-<script src="js/accordion.js"></script>
+<script src="js/FAQ.js"></script>
 </body>
 
 </html>

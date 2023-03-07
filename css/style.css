@@ -3,7 +3,7 @@
   --white: #ffffff;
   --gray: #e4e4e4;
   --color-primary: #0fbea1;
-  --color-primary-dimmed: #24A08B;
+  --color-primary-dimmed: #24a08b;
   --color-primary-background-start: #ffffff;
   --color-primary-background: #ffffff;
   --color-secondary: #d46000;
@@ -55,7 +55,7 @@ h3 {
   /* src: url('TTSupermolotNeue-Regular.eot'); */
   src: local("TT Supermolot Neue Regular"), local("TTSupermolotNeue-Regular"),
     /* url('TTSupermolotNeue-Regular.eot?#iefix') format('embedded-opentype'), */
-    url("../font/TTSupermolotNeue-Regular.woff2") format("woff2"),
+      url("../font/TTSupermolotNeue-Regular.woff2") format("woff2"),
     url("../font/TTSupermolotNeue-Regular.woff") format("woff"),
     url("../font/TTSupermolotNeue-Regular.ttf") format("truetype");
   font-weight: normal;
@@ -87,20 +87,20 @@ svg g .cls-3 {
   stroke-width: 17.37px;
 }
 
-svg>g>g>.cls-1 {
+svg > g > g > .cls-1 {
   stroke: url(#linear-gradient);
 }
 
-svg>g>g>.cls-3 {
+svg > g > g > .cls-3 {
   stroke: url(#linear-gradient-2);
 }
 
-svg>g>g>.cls-2 {
+svg > g > g > .cls-2 {
   fill: var(--white);
 }
 
-.scrolled>a>svg>g>g>.cls-2 {
-  fill: var(--color-primary);
+.scrolled > a > svg > g > g > .cls-2 {
+  fill: var(--black);
 }
 
 .mr-auto {
@@ -127,7 +127,7 @@ svg>g>g>.cls-2 {
   padding: 0.6vw;
 }
 
-.scrolled>div>ul>li>a {
+.scrolled > div > ul > li > a {
   color: var(--black);
 }
 
@@ -150,12 +150,14 @@ ul li {
 
 /* HERO-SECTION */
 
-
 .hero-container {
   height: 100vh;
   width: 100vw;
-  background:
-    linear-gradient(179deg, rgb(4, 27, 27), rgba(12, 73, 75, 0.74) 70.71%),
+  background: linear-gradient(
+      179deg,
+      rgb(4, 27, 27),
+      rgba(12, 73, 75, 0.74) 70.71%
+    ),
     linear-gradient(45deg, rgb(0, 19, 22), rgba(37, 66, 121, 0) 70.71%),
     linear-gradient(266deg, var(--color-primary), rgba(9, 100, 122, 0) 70.71%);
 }
@@ -221,7 +223,6 @@ ul li {
 .btn-learn-more a:hover {
   text-decoration: none;
 }
-
 
 .hero-img {
   width: 100%;
@@ -550,12 +551,12 @@ ul li {
   margin-top: 10%;
 }
 
-/* ACCORDION */
-.accordion--container {
+/* FAQ */
+.FAQ--container {
   padding: 5% 10% 5% 10%;
 }
 
-.accordion--section {
+.FAQ--section {
   border: 1px solid var(--color-primary);
   background-color: var(--white);
   cursor: pointer;
@@ -563,41 +564,58 @@ ul li {
   width: 100%;
   text-align: left;
   border-bottom: none;
+  border-top: none;
   outline: none;
   transition: all 1s;
+  text-align: left;
 }
 
-.accordion--panel {
+.FAQ--section > p {
+  margin: auto;
+}
+
+.FAQ--section:first-of-type {
+  border-top: 1px solid var(--color-primary);
+}
+
+.FAQ--panel {
   padding: 0 18px;
   max-height: 0%;
   border: 1px solid var(--color-primary);
   border-top: none;
-  border-bottom: none;
+  transition: all 1s;
   overflow: hidden;
-  transition: all 0.4s ease-in;
+  transition: all 1s;
 }
 
-.accordion--active,
-.accordion--section:hover,
-.accordion--section:focus {
+.FAQ--section:hover,
+.FAQ--section:focus {
   outline: none;
-  border-bottom: none !important;
+}
+.FAQ--active {
+  background-color: var(--gray);
+  outline: none;
 }
 
-
-
-.accordion--section:last-of-type {
-  border-bottom: 1px solid var(--color-primary);
+.FAQ--question {
+  padding: 5px;
+  display: inline-block;
 }
 
-.accordion--panel:last-of-type {
-  border-bottom: 1px solid var(--color-primary);
+.FAQ--arrow {
+  height: 25px;
+  width: 25px;
+  transition: all 0.5s;
+}
+
+.rotate-right {
+  transform: rotate(90deg);
 }
 
 /* CONTACT CSS */
 
 .form--container {
-  padding: 5% 10% 0 10%;
+  padding: 2% 10% 0 10%;
 }
 
 .form--text {
@@ -617,6 +635,7 @@ ul li {
 }
 
 input[type="text"],
+input[type="email"],
 select,
 textarea {
   font-family: var(--font-primary);
@@ -673,13 +692,13 @@ textarea:focus {
   justify-content: space-evenly;
 }
 
-.map--left>p {
+.map--left > p {
   text-align: left;
   margin-right: 50px;
   margin-bottom: 0;
 }
 
-.map--left>h1 {
+.map--left > h1 {
   margin-right: 50px;
   text-align: left;
 }
@@ -751,7 +770,7 @@ textarea:focus {
   text-align: center;
 }
 
-.footer--copyright>p {
+.footer--copyright > p {
   padding-top: 18px;
 
   color: var(--white);

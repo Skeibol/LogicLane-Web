@@ -16,7 +16,7 @@
 
 <body>
     <nav class="navbar navbar-underline navbar-expand-lg navbar-filter">
-        <a class="navbar-brand mr-auto" href="#">
+        <a class="navbar-brand mr-auto" href="index.php">
             <!-- <img src="images/logo/logic-lane-dark.svg" alt="LogicLane logo" class="logo"> -->
             <svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 993.72 371.17">
@@ -73,16 +73,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about-us">About us</a>
+                    <a class="nav-link" href="index.php#about-us">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="index.php#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="index.php#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#FAQ">FAQ</a>
+                    <a class="nav-link" href="index.php#FAQ">FAQ</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">

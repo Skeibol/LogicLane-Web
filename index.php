@@ -9,7 +9,7 @@ include "header.php";
                 Lorem ipsum dolor sit amet, coensectetur adipiscing elit.
             </h1>
             <div class="btns">
-                <button class="btn-contact"><a href="contact.php" class="contact-hero">Contact us</a></button>
+                <button class="btn-contact"><a href="contact-us.php" class="contact-hero">Contact us</a></button>
                 <button class="btn-learn-more"><a href="index.php#services" class="learn-more-hero">Learn
                         more</a></button>
             </div>
@@ -176,10 +176,13 @@ include "header.php";
     <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </q>
 </h1>
 
-<div class="accordion--container">
+<div class="FAQ--container" id="FAQ">
     <h1>FAQ</h1>
-    <button class="accordion--section">Section 1</button>
-    <div class="accordion--panel">
+    <button class="FAQ--section">
+        <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
+        <p class="FAQ--Question">Section 1</p>
+    </button>
+    <div class="FAQ--panel">
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
             odio tenetur maxime facere autem tempore facilis vel, debitis,
@@ -187,8 +190,11 @@ include "header.php";
             Dolores, similique?
         </p>
     </div>
-    <button class="accordion--section">Section 2</button>
-    <div class="accordion--panel">
+    <button class="FAQ--section">
+        <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
+        <p class="FAQ--Question">Section 2</p>
+    </button>
+    <div class="FAQ--panel">
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
             odio tenetur maxime facere autem tempore facilis vel, debitis,
@@ -196,8 +202,11 @@ include "header.php";
             Dolores, similique?
         </p>
     </div>
-    <button class="accordion--section">Section 3</button>
-    <div class="accordion--panel">
+    <button class="FAQ--section">
+        <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
+        <p class="FAQ--Question">Section 3</p>
+    </button>
+    <div class="FAQ--panel">
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
             odio tenetur maxime facere autem tempore facilis vel, debitis,
@@ -205,8 +214,11 @@ include "header.php";
             Dolores, similique?
         </p>
     </div>
-    <button class="accordion--section">Section 4</button>
-    <div class="accordion--panel">
+    <button class="FAQ--section">
+        <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
+        <p class="FAQ--Question">Section 4</p>
+    </button>
+    <div class="FAQ--panel">
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
             odio tenetur maxime facere autem tempore facilis vel, debitis,
@@ -214,8 +226,11 @@ include "header.php";
             Dolores, similique?
         </p>
     </div>
-    <button class="accordion--section">Section 5</button>
-    <div class="accordion--panel">
+    <button class="FAQ--section">
+        <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
+        <p class="FAQ--Question">Section 5</p>
+    </button>
+    <div class="FAQ--panel">
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
             odio tenetur maxime facere autem tempore facilis vel, debitis,
