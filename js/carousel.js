@@ -51,7 +51,33 @@ function shiftClasses(slides,classes,reverse=false){
     }
 }
 
+var a = fetch("js/data.json")
+      .then(res => res.json())
+      .then(json => {
+          // Do whatever you want
+          console.log(json)
+          return json;
+      });
+console.log(a)
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
 
+//usage:
+readTextFile("js/data.json", function(text){
+    var data = JSON.parse(text);
+    //console.log(data);
+});
+
+//console.log(data);
 var classes = ["carousel--pos0",
     "carousel--pos1",
     "carousel--pos2",

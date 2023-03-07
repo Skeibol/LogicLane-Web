@@ -71,27 +71,69 @@ include "header.php";
     <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 card-row">
             <div class="card-box h-30">
-                <p>Lorem Ipsum</p>
+                <div class="testtext">
+                    <h3>Data Preprocessing</h3>
+                    <p>&#9702; Dataset collection</p>
+                    <p>&#9702; Dataset annotiation</p>
+                    <p>&#9702; Data augmentation and clearing</p>
+                </div>
             </div>
 
-            <img class="card-box h-70" src="images/samples/sample2.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Wintry Mountain Landscape" />
+            <div class="card-box h-70">
+                <div class="testtext">
+                    <h3>Traditional Computer Vision</h3>
+                    <p>&#9702; Detection by color</p>
+                    <p>&#9702; Shape detection</p>
+                    <p>&#9702; Image filtering and augmentation</p>
+                    <p>&#9702; Image stitching</p>
+                </div>
+            </div>
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0 card-row">
-            <img class="card-box h-70" src="images/samples/sample3.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Mountains in the Clouds" />
+            <div class="card-box h-70">
+                <div class="testtext">
+                    <h3>Natural Language Processing</h3>
+                    <p>&#9702; Sentiment analisys</p>
+                    <p>&#9702; Topic analisys</p>
+                    <p>&#9702; Chatbots and virtual assistents</p>
+                    <p>&#9702; Text classification</p>
+                    <p>&#9702; Entity recognition</p>
+                    <p>&#9702; Natural language generation</p>
+                    <p>&#9702; Recommendation system</p>
 
-            <img class="card-box h-30" src="images/samples/sample4.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water" />
+                </div>
+            </div>
+
+            <div class="card-box h-30">
+                <div class="testtext">
+                    <h3>Artificial Intelligence</h3>
+                    <p>&#9702; Supervised learning</p>
+                    <p>&#9702; Unsupervised learning</p>
+                </div>
+            </div>
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0 card-row">
-            <img class="card-box h-30" src="images/samples/sample5.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Waves at Sea" />
+            <div class="card-box h-30">
+                <div class="testtext">
+                    <h3>Web Development</h3>
+                    <p>&#9702; Model deployment</p>
+                    <p>&#9702; Custom web apps</p>
+                    <p>&#9702; Custom web pages</p>
+                </div>
+            </div>
 
-            <img class="card-box h-70" src="images/samples/sample6.jpg" class="w-100 shadow-1-strong rounded mb-4"
-                alt="Yosemite National Park" />
+            <div class="card-box h-70">
+                <div class="testtext">
+                    <h3>Deep Learning CV</h3>
+                    <p>&#9702; Face recognition</p>
+                    <p>&#9702; Optical flow</p>
+                    <p>&#9702; Hand gesture recognition</p>
+                    <p>&#9702; Visual quality inspection</p>
+                    <p>&#9702; Image-to-text</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
