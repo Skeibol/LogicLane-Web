@@ -217,7 +217,9 @@ include "header.php";
     <img src="images/logo/bg-line-bottom.svg" alt="">
 </div>
 <h1 class="quote">
-    <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </q>
+
+    <strong style="color:var(--color-primary)">&#8222;</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <strong style="color:var(--color-primary)">&#8221;</strong>
 </h1>
 
 <div class="FAQ--container" id="FAQ">

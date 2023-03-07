@@ -6,7 +6,7 @@
   --color-primary-dimmed: #24a08b;
   --color-primary-background-start: #ffffff;
   --color-primary-background: #ffffff;
-  --color-secondary: #d46000;
+  --color-secondary: #21a1c8;
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "TT Supermolot Neue";
   --font-size-medium: 1.2rem;
@@ -25,7 +25,7 @@ a {
 
 a:hover,
 a:focus {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 p {
@@ -141,7 +141,7 @@ svg>g>g>.cls-2 {
 }
 
 .nav-contact .nav-link {
-  color: var(--color-secondary) !important;
+  color: var(--color-primary) !important;
 }
 
 ul li {
@@ -155,7 +155,7 @@ ul li {
   background: linear-gradient(179deg,
       rgb(4, 27, 27),
       rgba(12, 73, 75, 0.74) 70.71%),
-    linear-gradient(45deg, rgb(0, 19, 22), rgba(37, 66, 121, 0) 70.71%),
+    linear-gradient(45deg, rgb(0, 19, 22), var(--color-secondary) 70.71%),
     linear-gradient(266deg, var(--color-primary), rgba(9, 100, 122, 0) 70.71%);
 }
 
@@ -186,7 +186,7 @@ ul li {
   margin: auto;
   vertical-align: middle;
   display: flex;
-  /* padding-left: 10%; */
+  padding-left: 5%;
 }
 
 .bcg-hero {
@@ -226,14 +226,15 @@ ul li {
 
 .hero-img {
 
-  width: 60%;
+  width: 56%;
 }
 
 .hero-img-static {
   position: absolute;
-  left: 64%;
-  top: 30%;
-  width: 35%;
+  left: 69%;
+  top: 25%;
+  width: 30%;
+  margin-right: 0;
 }
 
 /* ABOUT US-SECTION */
@@ -594,7 +595,7 @@ ul li {
   font-size: 3rem;
   text-align: center;
   padding: 0 0 10% 0;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 /* FAQ */
