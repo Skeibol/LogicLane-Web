@@ -120,7 +120,7 @@ include "header.php";
 
 </div>
 <div class="bcg-1">
-    <img class="svg--fill" src="images/logo/bg-line-top.svg" alt="" class="bcg">
+    <img class="svg--fill" src="images/logo/bg-line-top.svg" alt="">
 </div>
 
 <!-- CAROUSEL -->
@@ -170,7 +170,7 @@ include "header.php";
     </div>
 </div>
 <div class="bcg">
-    <img src="images/logo/bg-line-bottom.svg" alt="" class="bcg">
+    <img src="images/logo/bg-line-bottom.svg" alt="">
 </div>
 <h1 class="quote">
     <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </q>
