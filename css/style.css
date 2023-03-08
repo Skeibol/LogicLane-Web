@@ -16,7 +16,14 @@
   --font-size-title: 3.5rem;
   --font-weight-title: 700;
 }
-
+/* linear-gradient(179deg,
+      rgb(3 46 66 / 81%),
+      rgb(14 1 64 / 54%) 70.71%),
+    linear-gradient(45deg, rgb(0 11 64), #00019370 70.71%),
+    linear-gradient(266deg, #00342c, rgba(9, 100, 122, 0) 70.71%)
+    #3c61ff primary
+    #3c61ff secondary
+    */
 a {
   font-family: var(--font-secondary);
   color: var(--white);
@@ -55,7 +62,7 @@ h3 {
   /* src: url('TTSupermolotNeue-Regular.eot'); */
   src: local("TT Supermolot Neue Regular"), local("TTSupermolotNeue-Regular"),
     /* url('TTSupermolotNeue-Regular.eot?#iefix') format('embedded-opentype'), */
-    url("../font/TTSupermolotNeue-Regular.woff2") format("woff2"),
+      url("../font/TTSupermolotNeue-Regular.woff2") format("woff2"),
     url("../font/TTSupermolotNeue-Regular.woff") format("woff"),
     url("../font/TTSupermolotNeue-Regular.ttf") format("truetype");
   font-weight: normal;
@@ -87,19 +94,19 @@ svg g .cls-3 {
   stroke-width: 17.37px;
 }
 
-svg>g>g>.cls-1 {
+svg > g > g > .cls-1 {
   stroke: url(#linear-gradient);
 }
 
-svg>g>g>.cls-3 {
+svg > g > g > .cls-3 {
   stroke: url(#linear-gradient-2);
 }
 
-svg>g>g>.cls-2 {
+svg > g > g > .cls-2 {
   fill: var(--white);
 }
 
-.scrolled>a>svg>g>g>.cls-2 {
+.scrolled > a > svg > g > g > .cls-2 {
   fill: var(--black);
 }
 
@@ -127,7 +134,7 @@ svg>g>g>.cls-2 {
   padding: 0.6vw;
 }
 
-.scrolled>div>ul>li>a {
+.scrolled > div > ul > li > a {
   color: var(--black);
 }
 
@@ -152,9 +159,11 @@ ul li {
 
 .hero-container {
   width: 100vw;
-  background: linear-gradient(179deg,
+  background: linear-gradient(
+      179deg,
       rgb(4, 27, 27),
-      rgba(12, 73, 75, 0.74) 70.71%),
+      rgba(12, 73, 75, 0.74) 70.71%
+    ),
     linear-gradient(45deg, rgb(0, 19, 22), var(--color-secondary) 70.71%),
     linear-gradient(266deg, var(--color-primary), rgba(9, 100, 122, 0) 70.71%);
 }
@@ -225,7 +234,6 @@ ul li {
 }
 
 .hero-img {
-
   width: 56%;
 }
 
@@ -617,7 +625,7 @@ ul li {
   text-align: left;
 }
 
-.FAQ--section>p {
+.FAQ--section > p {
   margin: auto;
 }
 
@@ -740,13 +748,13 @@ textarea:focus {
   justify-content: space-evenly;
 }
 
-.map--left>p {
+.map--left > p {
   text-align: left;
   margin-right: 50px;
   margin-bottom: 0;
 }
 
-.map--left>h1 {
+.map--left > h1 {
   margin-right: 50px;
   text-align: left;
 }
@@ -818,7 +826,7 @@ textarea:focus {
   text-align: center;
 }
 
-.footer--copyright>p {
+.footer--copyright > p {
   padding-top: 18px;
 
   color: var(--white);
