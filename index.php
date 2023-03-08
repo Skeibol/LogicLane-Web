@@ -8,10 +8,12 @@ include "header.php";
     <div class="hero-content">
         <div class="hero-info">
             <h1 class="hero-title">
-                Lorem ipsum dolor sit amet, coensectetur adipiscing elit.
+                Let the code work for <span class="bolded">you!</span>
             </h1>
+            <p class="hero-subtitle">Team of AI developers providing custom solutions for your project needs
+            </p>
             <div class="btns">
-                <button class="btn-contact"><a href="contact-us.php" class="contact-hero">Contact us</a></button>
+                <button class="btn-contact"><a href="contact-us.php">Contact us</a></button>
                 <button class="btn-learn-more"><a href="index.php#services" class="learn-more-hero">Learn
                         more</a></button>
             </div>
@@ -71,7 +73,7 @@ include "header.php";
                 sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh eget ante
                 facilisis
                 dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend elit. <br><br>
-                <button class="btn-contact"><a href="contact.php" class="contact-hero">Contact us</a></button>
+                <button class="btn-contact invert"><a class="invert" href="contact.php">Contact us</a></button>
             </p>
         </div>
     </div>

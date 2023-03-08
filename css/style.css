@@ -4,18 +4,18 @@
   --black: #000000;
   --white: #ffffff;
   --gray: #e4e4e4;
-  --color-primary: #1ba7e7;
-  --color-secondary: #151929;
-  --color-primary-dimmed: #24a08b;
+  --color-primary: #1e8ebb;
+  --color-secondary: #111114;
+  --color-primary-dimmed: #1b0ed467;
   --color-primary-background-start: #ffffff;
   --color-primary-background: #ffffff;
-  --font-primary: "Montserrat", sans-serif;
-  --font-secondary: "TT Supermolot Neue";
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "TT Supermolot Neue", sans-serif;
   --font-size-medium: 1.2rem;
   --font-size-small: 1rem;
   --font-size-title3: 2rem;
   --font-size-title2: 2.4rem;
-  --font-size-title: 3.5rem;
+  --font-size-title: 5rem;
   --font-weight-title: 700;
 }
 /* linear-gradient(179deg,
@@ -25,16 +25,32 @@
     linear-gradient(266deg, #00342c, rgba(9, 100, 122, 0) 70.71%)
     #3c61ff primary
     #3c61ff secondary
-    */
+    
+
+
+
+    TOX
+    linear-gradient(
+      179deg,
+      rgb(24 46 64 / 81%),
+      rgb(14 1 64 / 54%) 70.71%
+    ),
+    linear-gradient(45deg, #090720, #8294af 70.71%),
+    linear-gradient(266deg, #38b9a5, rgb(30 142 171 / 48%) 70.71%) */
 a {
   font-family: var(--font-secondary);
   color: var(--white);
   font-size: var(--font-size-medium);
+  transition-property: color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
 }
 
 a:hover,
 a:focus {
-  color: var(--color-primary);
+  color: var(--white);
+  text-decoration: none;
 }
 
 p {
@@ -80,9 +96,61 @@ body {
   fill: var(--color-primary);
 }
 
+.navbar-dash {
+  display: inline-block;
+  opacity: 0;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 15px;
+
+  margin-right: 15px;
+  transition-property: opacity, margin-left, margin-right, padding-left,
+    padding-right;
+  transition-duration: 0.8s, 275ms, 275ms, 275ms, 275ms;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+.nav-link {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-small);
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 85%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 10;
+  left: 5;
+  background-color: var(--white);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  left: 6px;
+  transform-origin: bottom left;
+}
+
+.nav-link:hover > .navbar-dash-right {
+  opacity: 1;
+  margin-left: 1px;
+  padding-left: 7px;
+}
+.nav-link:hover > .navbar-dash-left {
+  opacity: 0.7;
+  margin-right: 1px;
+  padding-right: 7px;
+}
 /* NAVBAR-SECTION */
 .navbar-underline {
-  border-bottom: 1.5px solid var(--color-primary);
+  border-bottom: 1.5px solid var(--white);
 }
 
 .logo {
@@ -134,15 +202,12 @@ svg > g > g > .cls-2 {
 
 .scrolled {
   padding: 0.6vw;
+
+  border-bottom: 1.5px solid var(--color-primary) !important;
 }
 
 .scrolled > div > ul > li > a {
-  color: var(--black);
-}
-
-.nav-link {
-  font-family: var(--font-secondary);
-  font-size: var(--font-size-small);
+  color: var(--color-primary) !important;
 }
 
 .navbar-toggler {
@@ -150,7 +215,7 @@ svg > g > g > .cls-2 {
 }
 
 .nav-contact .nav-link {
-  color: var(--color-primary) !important;
+  color: var(--white);
 }
 
 ul li {
@@ -167,15 +232,14 @@ ul li {
       rgba(12, 73, 75, 0.74) 70.71%
     ),
     linear-gradient(45deg, rgb(0, 19, 22), var(--color-secondary) 70.71%),
-    linear-gradient(266deg, var(--color-primary), rgba(9, 100, 122, 0) 70.71%);
-
+    linear-gradient(266deg, #2b2674, rgba(9, 100, 122, 0) 70.71%);
   background: linear-gradient(
       179deg,
       rgb(3 46 66 / 81%),
       rgb(14 1 64 / 54%) 70.71%
     ),
-    linear-gradient(45deg, var(--color-secondary), var(--color-primary) 70.71%),
-    linear-gradient(266deg, #00342c, rgba(9, 100, 122, 0) 70.71%);
+    linear-gradient(45deg, #090720, #1d56ac 70.71%),
+    linear-gradient(266deg, #00342c, rgba(18, 164, 201, 0.479) 70.71%);
 }
 
 .hero-content {
@@ -191,15 +255,23 @@ ul li {
   width: 40%;
   display: table-cell;
   margin: auto;
-  padding-right: 30px;
   padding-right: 5%;
+  padding-left: 20px;
+  scale: 1.15;
 }
 
 .hero-title {
   margin: auto;
   color: var(--white);
 }
-
+.hero-subtitle {
+  font-weight: var(--font-weight-title);
+  font-size: var(--font-size-medium);
+  color: var(--white);
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-left: 15px;
+}
 .hero-graphic {
   width: 60%;
   margin: auto;
@@ -220,23 +292,36 @@ ul li {
 
 .btn-contact {
   background-color: var(--color-primary);
+  color: var(--white);
   padding: 12px 50px 12px 50px;
-  border-style: none !important;
+  text-decoration: none;
+  border: 1px solid var(--color-primary);
+  transition-property: background-color, color;
+  transition-duration: 200ms, 200ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
 }
 
-.btn-contact a:hover {
-  text-decoration: none;
+.btn-contact:hover {
+  background-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  text-decoration: none !important;
+}
+
+.btn-contact:hover .invert {
+  color: var(--color-primary) !important;
 }
 
 .btn-learn-more {
   border: solid 1.5px var(--color-primary) !important;
+
   padding: 12px 50px 12px 50px;
   background: none !important;
   margin-left: 50px;
 }
 
 .btn-learn-more a {
-  color: var(--color-primary);
+  color: var(--white);
 }
 
 .btn-learn-more a:hover {
@@ -639,7 +724,7 @@ ul li {
 }
 
 .FAQ--active {
-  background-color: var(--gray);
+  background-color: var(--color-primary-dimmed);
   outline: none;
 }
 
@@ -672,12 +757,6 @@ ul li {
 
 .form--action {
   margin-left: 25px;
-}
-
-.btn-send {
-  background-color: var(--color-primary);
-  padding: 8px 50px 8px 50px;
-  border-style: none !important;
 }
 
 input[type="text"],

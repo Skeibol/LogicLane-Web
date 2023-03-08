@@ -25,12 +25,12 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
-    $mail->Username = "44b23ce71ec4c516f6b302978d8ec0e0";
-    $mail->Password = "135fb6d96545b09a58822f1a604d7b3e";
+    $mail->Username = "e1869b4f8bc7a80430aed0d1510b5384";
+    $mail->Password = "4832eea214596cb06170a44415d8d7b7";
 
 
-    $mail->setFrom('akezele35@gmail.com', 'Antonio Kezele');
-    $mail->addAddress('akezele35@gmail.com');
+    $mail->setFrom('logiclane.info@gmail.com ', 'Logic Lane');
+    $mail->addAddress('logiclane.info@gmail.com ');
 
 
     if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
@@ -75,8 +75,9 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
 
         <input type="text" id="med" name="med" style="display:none" value="">
 
-        <button class="btn-contact btn-send" type="submit" name="submit" id="contact-submit"><a
-                class="contact-hero">Send</a></button>
+        <button class="btn-contact" type="submit" name="submit" id="contact-submit">
+            <a class="invert">Send</a>
+        </button>
     </form>
     <p>
         <?php echo $msg; ?>

@@ -1,6 +1,16 @@
 <html lang="hr">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,20 +83,30 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#about-us">About us</a>
+                    <a class="nav-link hover-underline-animation" href="index.php#about-us">
+                        About us
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#services">Services</a>
+                    <a class="nav-link hover-underline-animation" href="index.php#services">
+                        Services
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#projects">Projects</a>
+                    <a class="nav-link hover-underline-animation" href="index.php#projects">
+                        Projects
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php#FAQ">FAQ</a>
+                    <a class="nav-link hover-underline-animation" href="index.php#FAQ">
+                        FAQ
+                    </a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item nav-contact"><a href="contact-us.php" class="nav-link">Contact us</a></li>
+                <li class="nav-item nav-contact"><a href="contact-us.php" class="nav-link">
+                        Contact us
+                    </a></li>
             </ul>
         </div>
     </nav>
