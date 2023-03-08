@@ -1,14 +1,14 @@
 :root {
+  /* --color-primary: #0fbea1; */
+  /* --color-secondary: #21a1c8; */
   --black: #000000;
   --white: #ffffff;
   --gray: #e4e4e4;
-  --color-primary: #0fbea1;
   --color-primary: #1ba7e7;
+  --color-secondary: #151929;
   --color-primary-dimmed: #24a08b;
   --color-primary-background-start: #ffffff;
   --color-primary-background: #ffffff;
-  --color-secondary: #21a1c8;
-  --color-secondary: #3c61ff;
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "TT Supermolot Neue";
   --font-size-medium: 1.2rem;
@@ -174,7 +174,7 @@ ul li {
       rgb(3 46 66 / 81%),
       rgb(14 1 64 / 54%) 70.71%
     ),
-    linear-gradient(45deg, rgb(0 11 64), var(--color-primary) 70.71%),
+    linear-gradient(45deg, var(--color-secondary), var(--color-primary) 70.71%),
     linear-gradient(266deg, #00342c, rgba(9, 100, 122, 0) 70.71%);
 }
 
