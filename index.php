@@ -2,6 +2,8 @@
 $title = "Logic Lane - AI rješenja";
 include "header.php";
 ?>
+
+<!-- HERO SECTION -->
 <div class="hero-container">
     <div class="hero-content">
         <div class="hero-info">
@@ -14,6 +16,7 @@ include "header.php";
                         more</a></button>
             </div>
         </div>
+        <!-- LOGO SVG -->
         <div class="hero-graphic">
             <object class="hero-img" type="image/svg+xml" data="images/logo/logo-new-loop.svg">
 
@@ -25,32 +28,33 @@ include "header.php";
                 <img src="images/logo/logo-new-no-loop.svg" />
 
             </object>
-            <!-- <object class="hero-img" type="image/svg+xml" data="images/logo/logo-animated.svg">
-
-                <img src="images/logo/logo-animated.svg" />
-
-            </object> -->
-            <!-- <img class="hero-img" src="images/logo/logo-animated.svg" alt=""> -->
         </div>
     </div>
     <div class="bcg-hero">
         <img class="svg--fill" src="images/top-hero.svg" alt="" class="bcg">
     </div>
 </div>
+
+<!-- ABOUT US -->
 <div class="about-us-container" id="about-us">
     <div class="about-us-content">
         <div class="video-container">
             <!-- VIDEO SVG -->
-
             <svg xmlns="http://www.w3.org/2000/svg" width="1188.493" height="1119.957" viewBox="0 0 1188.493 1119.957">
                 <g id="Group_17" data-name="Group 17" transform="translate(328.772 -899.426)">
-                    <g id="Polygon_2" data-name="Polygon 2" transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
+                    <g id="Polygon_2" data-name="Polygon 2"
+                        transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
                         <path d="M388.5,0,777,622H0Z" stroke="none" />
-                        <path class="svg--fill" d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z" stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill"
+                            d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z"
+                            stroke="none" fill="#0ab59d" />
                     </g>
-                    <g id="Polygon_4" data-name="Polygon 4" transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
+                    <g id="Polygon_4" data-name="Polygon 4"
+                        transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
                         <path d="M463,0,926,742H0Z" stroke="none" />
-                        <path class="svg--fill" d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z" stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill"
+                            d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z"
+                            stroke="none" fill="#0ab59d" />
                     </g>
                 </g>
             </svg>
@@ -73,7 +77,7 @@ include "header.php";
     </div>
 </div>
 
-<!-- Services -->
+<!-- SERVICES -->
 <div class="services-container" id="services">
     <h2 class="services-title">
         Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
@@ -147,7 +151,7 @@ include "header.php";
     </div>
 </div>
 
-<!-- Technology -->
+<!-- TECHNOLOGY -->
 <div class="tech-container">
     <div class="tech-content">
         <div class="tech-items">
@@ -180,30 +184,34 @@ include "header.php";
         <button class="switch-up"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_9" data-name="Polygon 9" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill"
+                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
+                        stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
         <div class="carousel--slide carousel--pos0">
-            <img class="carousel--image" src="" alt="slika ines kako je beba velika">
+            <img class="carousel--image" src="" alt="project picture">
         </div>
 
         <div class="carousel--slide carousel--pos1">
-            <img class="carousel--image" src="" alt="slika ines kako je beba velika">
+            <img class="carousel--image" src="" alt="project picture">
         </div>
         <div class="carousel--slide carousel--pos2">
-            <img class="carousel--image" src="" alt="slika ines kako je beba velika">
+            <img class="carousel--image" src="" alt="project picture">
         </div>
         <div class="carousel--slide carousel--pos3">
-            <img class="carousel--image" src="" alt="slika ines kako je beba velika">
+            <img class="carousel--image" src="" alt="project picture">
         </div>
         <div class="carousel--slide carousel--pos4">
-            <img class="carousel--image" src="" alt="slika ines kako je beba velika">
+            <img class="carousel--image" src="" alt="project picture">
         </div>
         <button class="switch-down"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_10" data-name="Polygon 10" transform="translate(73 72) rotate(-180)" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill"
+                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
+                        stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
@@ -216,12 +224,14 @@ include "header.php";
 <div class="bcg">
     <img src="images/logo/bg-line-bottom.svg" alt="">
 </div>
-<h1 class="quote">
 
+<!-- QUOTE -->
+<h1 class="quote">
     <strong style="color:var(--color-primary)">&#8222;</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     <strong style="color:var(--color-primary)">&#8221;</strong>
 </h1>
 
+<!-- FAQ -->
 <div class="FAQ--container" id="FAQ">
     <h1>FAQ</h1>
     <button class="FAQ--section">

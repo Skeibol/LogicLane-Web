@@ -43,9 +43,6 @@
     </script>
 
 <!-- Naše skripte -->
-<script type="text/javascript" src="data.json"></script>
-<script src="js/contentAdder.js"></script>
-<script src="js/addDiv.js"></script>
 <script src="js/cardScaler.js"></script>
 <script type="module" src="js/carousel.js"></script>
 <script src="js/navScroller.js"></script>
