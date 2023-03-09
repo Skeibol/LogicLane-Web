@@ -73,7 +73,7 @@ include "header.php";
                 sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh eget ante
                 facilisis
                 dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend elit. <br><br>
-                <button class="btn-contact invert"><a class="invert" href="contact.php">Contact us</a></button>
+                <button class="btn-contact invert"><a class="invert" href="contact-us.php">Contact us</a></button>
             </p>
         </div>
     </div>

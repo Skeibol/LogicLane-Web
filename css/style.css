@@ -201,7 +201,7 @@ svg > g > g > .cls-2 {
 }
 
 .scrolled {
-  padding: 0.6vw;
+  padding: 0.1vw;
 
   border-bottom: 1.5px solid var(--color-primary) !important;
 }

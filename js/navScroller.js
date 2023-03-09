@@ -15,7 +15,7 @@ document.getScroll = function() {
 var headerHeight = document.getElementsByClassName('hero-container')[0].offsetHeight
 var navbarHeight = document.getElementsByClassName('navbar')[0].offsetHeight
 $(window).on('scroll',function() {
-    if(document.getScroll()[1] > headerHeight - navbarHeight - 100){
+    if(document.getScroll()[1] > headerHeight - navbarHeight * 2){
         $(".navbar").addClass("scrolled")
 
     }
