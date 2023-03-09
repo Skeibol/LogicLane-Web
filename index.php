@@ -13,7 +13,7 @@ include "header.php";
             <p class="hero-subtitle">Team of AI developers providing custom solutions for your project needs
             </p>
             <div class="btns">
-                <button class="btn-contact"><a href="contact-us.php">Contact us</a></button>
+                <button class="btn-contact"><a class="invert" href="contact-us.php">Contact us</a></button>
                 <button class="btn-learn-more"><a href="index.php#services" class="learn-more-hero">Learn
                         more</a></button>
             </div>
@@ -33,13 +33,20 @@ include "header.php";
         </div>
     </div>
     <div class="bcg-hero">
-        <img class="svg--fill" src="images/top-hero.svg" alt="" class="bcg">
+
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1926.53 224">
+            <defs>
+            </defs>
+            <polygon class="cls-1-hero" points="1926 224 0 224 0 0 1926 144 1926 224" />
+            <line class="cls-2-bg" x1="1.91" y1="40.95" x2="1926.5" y2="186.5" />
+        </svg>
+
     </div>
 </div>
 
 <!-- ABOUT US -->
 <div class="about-us-container" id="about-us">
-    <div class="about-us-content">
+    <div class="about-us-content row">
         <div class="video-container">
             <!-- VIDEO SVG -->
             <svg xmlns="http://www.w3.org/2000/svg" width="1188.493" height="1119.957" viewBox="0 0 1188.493 1119.957">
@@ -153,34 +160,17 @@ include "header.php";
     </div>
 </div>
 
-<!-- TECHNOLOGY -->
-<div class="tech-container">
-    <div class="tech-content">
-        <div class="tech-items">
-            <div class="tech-item">
-                <img src="images/tf.png" alt="" class="tf">
-            </div>
-            <div class="tech-item">
-                <img src="images/tf.png" alt="" class="tf">
-            </div>
-            <div class="tech-item">
-                <img src="images/tf.png" alt="" class="tf">
-            </div>
-            <div class="tech-item">
-                <img src="images/tf.png" alt="" class="tf">
-            </div>
-            <div class="tech-item">
-                <img src="images/tf.png" alt="" class="tf">
-            </div>
-        </div>
-    </div>
-
-</div>
-<div class="bcg-1">
-    <img class="svg--fill" src="images/logo/bg-line-top.svg" alt="">
-</div>
 
 <!-- CAROUSEL -->
+<div class="bcg-1">
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1917.54 222.41">
+        <defs>
+
+        </defs>
+        <polyline class="cls-1-bg" points="0.54 30.28 0.54 222.41 1917.54 222.41" />
+        <line class="cls-2-bg" x1="0.04" y1="0.41" x2="1917.04" y2="192.54" />
+    </svg>
+</div>
 <div class="carousel" id="projects">
     <div class="carousel--left carousel--container">
         <button class="switch-up"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
@@ -224,16 +214,96 @@ include "header.php";
     </div>
 </div>
 <div class="bcg">
-    <img src="images/logo/bg-line-bottom.svg" alt="">
+    <!-- <img src="images/logo/bg-line-bottom.svg" alt=""> -->
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1917.54 218.41">
+        <polyline class="cls-1-bg" points="0.54 188.67 0.54 0 1917.54 0" />
+        <line class="cls-2-bg" x1="0.04" y1="218" x2="1917.04" y2="29.33" />
+    </svg>
 </div>
 
-<!-- QUOTE -->
-<h1 class="quote">
-    <strong style="color:var(--color-primary)">&#8222;</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    <strong style="color:var(--color-primary)">&#8221;</strong>
-</h1>
+
+<!-- TECHNOLOGY -->
+<div class="tech-container">
+    <div class="tech-content">
+        <div class="tech-items">
+            <h2 class="text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
+            <div class="row row-tech">
+                <div class="tech-item">
+                    <img src="images/technologies/c-sharp.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/cplusplus.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/php.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/python.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/pandas.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/keras.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/scikit.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/pytorch.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/tf.png" alt="" class="tf">
+                </div>
+            </div>
+            <div class="row row-tech">
+                <div class="tech-item">
+                    <img src="images/technologies/js.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/node.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/react.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/bootstrap.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/css.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/sql.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/blender.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/unity.png" alt="" class="tf">
+                </div>
+                <div class="tech-item">
+                    <img src="images/technologies/acad.png" alt="" class="tf">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
 
 <!-- FAQ -->
+
+<div class="bcg-1">
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1917.54 222.41">
+        <defs>
+
+        </defs>
+        <polyline class="cls-1-bg" points="0.54 30.28 0.54 222.41 1917.54 222.41" />
+        <line class="cls-2-bg" x1="0.04" y1="0.41" x2="1917.04" y2="192.54" />
+    </svg>
+</div>
 <div class="FAQ--container" id="FAQ">
     <h1>FAQ</h1>
     <button class="FAQ--section">
@@ -297,9 +367,20 @@ include "header.php";
         </p>
     </div>
 </div>
+<div class="bcg">
+    <!-- <img src="images/logo/bg-line-bottom.svg" alt=""> -->
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1917.54 218.41">
+        <polyline class="cls-1-bg" points="0.54 188.67 0.54 0 1917.54 0" />
+        <line class="cls-2-bg" x1="0.04" y1="218" x2="1917.04" y2="29.33" />
+    </svg>
+</div>
 
 
-
+<!-- QUOTE -->
+<h1 class="quote">
+    <strong style="color:var(--color-primary)">&#8222;</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <strong style="color:var(--color-primary)">&#8221;</strong>
+</h1>
 
 
 
