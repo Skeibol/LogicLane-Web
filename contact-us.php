@@ -51,7 +51,7 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
             $msg = 'Message sent! Thanks for contacting us.';
         }
     } else {
-        $msg = 'Invalid email address, message ignored.';
+        $msg = 'Invalid email address, message not sent.';
     }
 
     $_POST['email'] = null;
@@ -79,12 +79,12 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
             <a class="invert">Send</a>
         </button>
     </form>
-    <p>
+    <p class="form--message">
         <?php echo $msg; ?>
     </p>
 </div>
 <div class="map">
-    <h2 class="form--text ">..or visit us in our office</h2>
+    <h2 class="form--text text-right">..or visit us in our office</h2>
     <div class="map--container">
         <div class="map--left">
             <h3>Lorem ipsum dolor</h3>
