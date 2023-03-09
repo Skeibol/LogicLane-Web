@@ -74,6 +74,11 @@ include "header.php";
                 sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh eget ante
                 facilisis
                 dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend elit. <br><br>
+                Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non dignissim
+                tincidunt,
+                sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh eget ante
+                facilisis
+                dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend elit. <br><br>
                 <button class="btn-contact"><a class="invert" href="contact-us.php">Contact us</a></button>
             </p>
         </div>
@@ -216,8 +221,8 @@ include "header.php";
 <div class="tech-container">
     <div class="tech-content">
         <div class="tech-items">
-        <h2 class="text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
+            <h2 class="text-center tech-title">
+                Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
             <div class="row row-tech">
                 <div class="tech-item">
                     <img src="images/technologies/c-sharp.png" alt="" class="tf">
@@ -246,9 +251,7 @@ include "header.php";
                 <div class="tech-item">
                     <img src="images/technologies/tf.png" alt="" class="tf">
                 </div>
-            </div>
-            <div class="row row-tech">
-            <div class="tech-item">
+                <div class="tech-item">
                     <img src="images/technologies/js.png" alt="" class="tf">
                 </div>
                 <div class="tech-item">
@@ -276,7 +279,6 @@ include "header.php";
                     <img src="images/technologies/acad.png" alt="" class="tf">
                 </div>
             </div>
-
         </div>
     </div>
 </div>
