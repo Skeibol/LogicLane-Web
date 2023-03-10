@@ -45,6 +45,7 @@
 <!-- Naše skripte -->
 <script src="js/cardScaler.js"></script>
 <script type="module" src="js/carousel.js"></script>
+<script src="js/carousel-mobile.js"></script>
 <script src="js/navScroller.js"></script>
 <script src="js/blurFix.js"></script>
 <script src="js/FAQ.js"></script>
