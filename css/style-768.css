@@ -1,11 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 991.92px) {
   :root {
-    --font-size-medium: 3vw;
-    --font-size-small: 2.5vw;
-    --font-size-title3: 4vw;
-    --font-size-title2: 5vw;
-    --font-size-title: 5.2vw;
+    --font-size-medium: 4.1vw !important;
+    --font-size-small: 3.8vw;
+    --font-size-title3: 5vw;
+    --font-size-title2: 6vw;
+    --font-size-title: 7vw;
     --gray: #eaecf3;
     --color-primary: #0098d4;
   }
@@ -20,6 +20,9 @@
   .navbar-underline {
     border-bottom: 0.8px solid var(--white);
   }
+  .navbar {
+    padding: 0.5vw;
+  }
 
   /* HERO-SECTION */
 
@@ -30,7 +33,7 @@
   }
 
   .hero-content {
-    padding: 0 0 0 5%;
+    padding: 0 0 0 0;
     width: 100%;
     height: auto;
     display: block;
@@ -67,7 +70,7 @@
 
   .hero-img-static {
     position: static;
-    width: 52%;
+    width: 47%;
     margin-left: -80px;
   }
 
@@ -146,21 +149,6 @@
     margin: auto;
   }
 
-  .card-box {
-    height: 500px;
-    object-fit: cover;
-    position: relative;
-    display: flex;
-    margin-bottom: 0px;
-    border-radius: 0px;
-    margin-top: 10px;
-    width: 100%;
-    height: 100%;
-    color: var(--white);
-    transition: height, margin, scale 0.6s, 0.6s, 0.6s;
-    text-align: center;
-  }
-
   .shrink {
     height: auto !important;
   }
@@ -216,6 +204,8 @@
     align-items: baseline;
     flex-wrap: wrap;
     margin: 0;
+    flex-flow:wrap;
+
   }
 
   .tech-item {
@@ -223,20 +213,23 @@
   }
 
   /* CAROUSEL??? */
+  .carousel {
+    height: auto;
+  }
   .carousel--container {
     display: none !important;
   }
 
   .carousel-mobile--container {
     display: block;
-    margin: auto auto;
+    margin: auto;
     padding: 10% 5% 10% 5%;
-    height: 90vh;
+    height: auto;
     background-color: var(--gray);
   }
 
   .carousel-mobile--image {
-    height: 60%;
+    height: 15rem;
     background-color: var(--color-primary);
     background-image: none;
     background-size: cover;
@@ -248,11 +241,12 @@
 
   .carousel-mobile--description {
     height: 20%;
+    padding-bottom: 20px;
   }
 
   .carousel-mobile--arrow-holder {
     display: flex;
-    height: 20%;
+    height: 50px;
     width: 100%;
   }
 
@@ -309,6 +303,7 @@
   label {
     padding-top: 10px;
     margin-bottom: 2px;
+    font-size: var(--font-size-medium);
   }
 
   textarea {

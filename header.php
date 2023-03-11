@@ -85,7 +85,7 @@
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span> <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path style="fill:var(--white)" d="M6.85 34.65V32.9H41.2v1.75Zm0-9.8V23.1H41.2v1.75Zm0-9.75v-1.75H41.2v1.75Z"/></svg></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
