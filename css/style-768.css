@@ -133,8 +133,13 @@
     margin-left: auto;
   }
 
+  .row {
+    flex-flow: column;
+  }
+
   .card-row {
-    height: 50vh;
+    height: auto;
+    margin-bottom: 0px !important;
   }
 
   .testtext {
@@ -146,7 +151,7 @@
     object-fit: cover;
     position: relative;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     border-radius: 0px;
     margin-top: 10px;
     width: 100%;
@@ -156,19 +161,26 @@
     text-align: center;
   }
 
-  .card-box:hover {
-    transform: scale(1.05);
+  .shrink {
+    height: auto !important;
+  }
+
+  .card-box h-70 {
+    height: 100% !important;
+  }
+  .card-box h-30 {
+    height: 100% !important;
   }
 
   .card-box h3 {
+    margin-top: 10px;
     transition: font-size 0.6s;
     font-size: var(--font-size-title3);
   }
 
   .card-box p {
-    display: none;
-    opacity: 0;
-    transition: opacity 1s;
+    display: block;
+    opacity: 1;
   }
 
   .shrink {
@@ -177,27 +189,14 @@
   }
 
   .expand {
-    height: 100% !important;
     margin-bottom: 20px !important;
     margin-top: 20px !important;
     background-color: var(--color-primary);
   }
 
-  .expand h3 {
-    margin-top: 10px;
-  }
-
   .expand p {
     display: block;
     opacity: 1;
-  }
-
-  .h-30 {
-    height: 30%;
-  }
-
-  .h-70 {
-    height: 70%;
   }
 
   /* TECHNOLOGIES */
@@ -245,6 +244,10 @@
   }
   .carousel-mobile--title {
     margin-top: 5%;
+  }
+
+  .carousel-mobile--description {
+    height: 20%;
   }
 
   .carousel-mobile--arrow-holder {

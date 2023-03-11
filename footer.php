@@ -9,12 +9,12 @@
 
             <div class="footer--media-holder">
                 <p>Lorem ipsum dolor sit, amet consectetur.</p>
-                <a href="#" class="fa fa-facebook fa-2x"></a>
-                <a href="#" class="fa fa-twitter fa-2x"></a>
+                <a href="logiclane.info@gmail.com " class="fa fa-envelope fa-2x"></a>
+                <a href="https://www.linkedin.com/company/logiclan%C3%A9/" class="fa fa-linkedin fa-2x"></a>
+                <a href="https://www.instagram.com/logic_lane/" class="fa fa-instagram fa-2x"></a>
+                <!-- <a href="#" class="fa fa-twitter fa-2x"></a>
                 <a href="#" class="fa fa-google fa-2x"></a>
-                <a href="#" class="fa fa-linkedin fa-2x"></a>
-                <a href="#" class="fa fa-youtube fa-2x"></a>
-                <a href="#" class="fa fa-instagram fa-2x"></a>
+                <a href="#" class="fa fa-youtube fa-2x"></a> -->
             </div>
         </div>
         <div class="footer--section">

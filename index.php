@@ -32,7 +32,7 @@ include "header.php";
             </object>
         </div>
     </div>
-    <div class="bcg-hero">
+    <div class="bcg-hero" id="about-us">
 
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1926.53 224">
             <defs>
@@ -45,7 +45,7 @@ include "header.php";
 </div>
 
 <!-- ABOUT US -->
-<div class="about-us-container" id="about-us">
+<div class="about-us-container">
     <div class="about-us-content row">
         <div class="video-container">
             <!-- VIDEO SVG -->
@@ -312,7 +312,7 @@ include "header.php";
 
 <!-- FAQ -->
 
-<div class="bcg-1">
+<div class="bcg-1" id="FAQ">
     <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1917.54 222.41">
         <defs>
 
@@ -321,7 +321,7 @@ include "header.php";
         <line class="cls-2-bg" x1="0.04" y1="0.41" x2="1917.04" y2="192.54" />
     </svg>
 </div>
-<div class="FAQ--container" id="FAQ">
+<div class="FAQ--container">
     <h1>FAQ</h1>
     <button class="FAQ--section">
         <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
