@@ -17,13 +17,14 @@
             </div>
         </div>
         <div class="footer--section">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p>MAKNI FOOTER TEKST</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
 
         </div>
     </div>
 
 </div>
+
 <div class="footer--copyright">
     <p class="footer--copyright-text">&copy; LogicLane</p>
 </div>
