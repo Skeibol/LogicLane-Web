@@ -1,5 +1,5 @@
 <?php
-$title = "Logic Lane - AI rješenja";
+$title = "Logic Lane | AI solutions";
 include "header.php";
 ?>
 
@@ -177,8 +177,24 @@ include "header.php";
         <p class="carousel-mobile--description">
         </p>
         <div class="carousel-mobile--arrow-holder">
-            <div class="carousel-mobile--arrow left"></div>
-            <div class=" carousel-mobile--arrow right"></div>
+            <div class="carousel-mobile--arrow left"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+                    <g id="Polygon_17" data-name="Polygon 17" transform="translate(0 53) rotate(-90)" fill="none">
+                        <path d="M26.5,0,53,53H0Z" stroke="none" />
+                        <path d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z" stroke="none" fill="var(--color-primary)" />
+                    </g>
+                </svg>
+
+
+            </div>
+            <div class=" carousel-mobile--arrow right"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+                    <g id="Polygon_17" data-name="Polygon 17" transform="translate(53) rotate(90)" fill="none">
+                        <path d="M26.5,0,53,53H0Z" stroke="none" />
+                        <path d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z" stroke="none" fill="var(--color-primary)" />
+                    </g>
+                </svg>
+
+
+            </div>
         </div>
     </div>
 

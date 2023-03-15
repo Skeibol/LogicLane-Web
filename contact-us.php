@@ -1,5 +1,5 @@
 <?php
-$title = "Logic Lane - AI rješenja";
+$title = "Cntact us | Logic Lane";
 include "header.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -57,9 +57,25 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
     $_POST['email'] = null;
     $_POST['name'] = null;
     $_POST['message'] = null;
-
 }
 ?>
+<svg class="form--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700.34 654.17">
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <g id="Group_86" data-name="Group 86">
+                <g id="Polygon_12" data-name="Polygon 12">
+                    <path class="cls-1" d="M700.34,8l-.48,646.17L119.72,291.58Z" />
+                    <path class="cls-2" d="M699.54,9.28,121.37,291.67l577.7,361.06.47-643.45m.8-1.28-.47,646.17L119.72,291.58Z" />
+                </g>
+                <g id="Polygon_11" data-name="Polygon 11">
+                    <path class="cls-1" d="M580.62,0l-.48,646.17L0,283.58Z" />
+                    <path class="cls-2" d="M579.82,1.28,1.65,283.67l577.7,361.06.47-643.45m.8-1.28-.47,646.17L0,283.58Z" />
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+
 
 <div class="form--container">
     <h2 class="form--text" id="#form-text">Send us a message</h2>
@@ -83,6 +99,10 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
         <?php echo $msg; ?>
     </p>
 </div>
+
+
+
+
 <div class="map">
     <h2 class="form--text text-right">..or visit us in our office</h2>
     <div class="map--container">
@@ -93,10 +113,7 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, officia?</p>
         </div>
         <div class="map--right">
-            <iframe class="map--google"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1665.3805683685646!2d17.151815362450392!3d45.41286637343932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4767730e148178e9%3A0x3e1e5255632ab353!2sAI%20Centar%20Lipik!5e0!3m2!1sen!2shr!4v1678050425801!5m2!1sen!2shr"
-                width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="map--google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.8751878937683!2d17.155162173762793!3d45.41185638949885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476773aee49c16e7%3A0x3e37ba3eb85ad8ed!2sUl.%20Hrvatske%20mlade%C5%BEi%2032%2C%2034551%2C%20Lipik!5e0!3m2!1sen!2shr!4v1678814327800!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </div>
