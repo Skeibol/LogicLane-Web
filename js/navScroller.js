@@ -1,4 +1,4 @@
-document.getScroll = function() {
+document.getScroll = function () {
     if (window.pageYOffset != undefined) {
         return [pageXOffset, pageYOffset];
     } else {
@@ -14,12 +14,12 @@ document.getScroll = function() {
 
 var headerHeight = document.getElementsByClassName('hero-container')[0].offsetHeight
 var navbarHeight = document.getElementsByClassName('navbar')[0].offsetHeight
-$(window).on('scroll',function() {
-    if(document.getScroll()[1] > headerHeight - navbarHeight - 110){
+$(window).on('scroll', function () {
+    if (document.getScroll()[1] > headerHeight - navbarHeight - 200) {
         $(".navbar").addClass("scrolled")
 
     }
-    else{
+    else {
         $(".navbar").removeClass("scrolled")
 
     }
@@ -27,18 +27,18 @@ $(window).on('scroll',function() {
 
 const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('navbarNav')
-const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false })
 if ($('.navbar-toggler').attr('aria-expanded') === "true") {
-        navLinks.forEach((l) => {
-            l.addEventListener('click', () => { bsCollapse.toggle() })
-        })
-    }
+    navLinks.forEach((l) => {
+        l.addEventListener('click', () => { bsCollapse.toggle() })
+    })
+}
 
 $(document).click(function (event) {
     var clickover = $(event.target);
-    var $navbar = $(".navbar-collapse");               
+    var $navbar = $(".navbar-collapse");
     var _opened = $navbar.hasClass("show");
-    if (_opened === true && !clickover.hasClass("navbar-toggler")) {      
+    if (_opened === true && !clickover.hasClass("navbar-toggler")) {
         $navbar.collapse('hide');
     }
 });
