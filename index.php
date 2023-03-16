@@ -303,10 +303,52 @@ include "header.php";
 
 <!-- TECHNOLOGY -->
 <div class="slider-wrap">
-    <h2 class="text-center tech-title">
+    <h2 class="text-center tech-title" data-aos="fade-up" data-aos-offset="100" data-aos-duration="2000">
         We take pride in our knowledge</h2>
 
     <div class="slider">
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
         <div class="slider-item">
             <div class="img-div"></div>
         </div>

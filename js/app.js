@@ -10,7 +10,7 @@ let items = [...document.querySelectorAll(".slider-item")];
 let images = [...document.querySelectorAll(".img-div")];
 
 images.forEach((image, idx) => {
-  image.style.backgroundImage = `url(./images/${idx + 1}.png)`;
+  image.style.backgroundImage = `url(./images/technologies/${idx + 1}.png)`;
 });
 
 items.forEach((item) => {
