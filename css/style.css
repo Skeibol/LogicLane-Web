@@ -34,12 +34,11 @@
   margin: 20px;
   padding: 20px;
   right: 30px;
-  transition: background-color .3s,
-    opacity .5s, visibility .5s, transform .5s;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s,
+    transform 0.5s;
   opacity: 0;
   visibility: hidden;
   z-index: 200000000;
-
 }
 
 #back-to-top::after {
@@ -68,13 +67,12 @@
   transform: rotate(-90deg) scale(1.5) !important;
 }
 
-
 /* Styles for the content section */
 
 .content {
   width: 77%;
   margin: 50px auto;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 17px;
   color: #6c767a;
   line-height: 1.9;
@@ -124,6 +122,8 @@
 .slider-item {
   position: relative;
   flex: 1;
+  margin-top: 300px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -254,7 +254,6 @@ body::-webkit-scrollbar {
   stroke-width: 1px;
 }
 
-
 .navbar-dash {
   display: inline-block;
   opacity: 0;
@@ -300,7 +299,6 @@ body::-webkit-scrollbar {
   background-color: var(--white);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
-
 }
 
 .hover-underline-animation:hover:after {
@@ -308,7 +306,6 @@ body::-webkit-scrollbar {
   left: 6px;
   height: 1.5px !important;
   transform-origin: bottom left;
-
 }
 
 .nav-link:hover>.navbar-dash-right {
@@ -486,7 +483,9 @@ ul li {
 }
 
 .btn-contact:focus,
-.btn-contact:active, .btn-learn-more:focus, .btn-learn-more:active {
+.btn-contact:active,
+.btn-learn-more:focus,
+.btn-learn-more:active {
   outline: none;
   text-decoration: none !important;
 }
@@ -718,7 +717,6 @@ ul li {
 
 .shrink h3 {
   display: none;
-
 }
 
 .expand p {
@@ -813,8 +811,6 @@ ul li {
   height: 100%;
 }
 
-
-
 .carousel--slide {
   display: inline-block;
   position: absolute;
@@ -827,13 +823,9 @@ ul li {
   transition-delay: 0s;
   z-index: 0;
 
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11),
-    0 2px 2px rgba(0, 0, 0, 0.11),
-    0 4px 4px rgba(0, 0, 0, 0.11),
-    0 8px 8px rgba(0, 0, 0, 0.11),
-    0 16px 16px rgba(0, 0, 0, 0.11),
-    0 32px 32px rgba(0, 0, 0, 0.11);
-
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
 }
 
 .carousel--pos0 {
@@ -881,7 +873,6 @@ ul li {
 }
 
 .carousel--header {
-
   padding-bottom: 10px;
   display: inline;
 }
@@ -895,7 +886,8 @@ ul li {
   margin-top: -50px;
 }
 
-.carousel--button:hover, .carousel--button:focus {
+.carousel--button:hover,
+.carousel--button:focus {
   outline: none;
 }
 
@@ -1003,7 +995,7 @@ ul li {
 
 .FAQ--panel {
   padding: 0 30px 0 30px;
-  max-height: 0%;
+  max-height: 0;
   border: 1px solid var(--color-primary);
   border-top: none;
   transition: max-height, background-color 0.6s, 0.6s;
@@ -1129,7 +1121,8 @@ textarea:focus {
   text-decoration: none;
 }
 
-.mail--contact, .mail--contact:hover {
+.mail--contact,
+.mail--contact:hover {
   text-decoration: none;
   color: var(--color-secondary);
   font-family: var(--font-primary);

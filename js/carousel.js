@@ -1,34 +1,32 @@
-import projectsJSON from "../js/data.json" assert { type: "json" };
-
 function getSlides() {
   return $(".carousel--slide");
 }
 
-function setText() {
-  $(".carousel--header").text(projects[projectIndex].title);
-  $(".carousel--text").text(projects[projectIndex].content);
-  $(".carousel--link").attr("href", projects[projectIndex].url);
+function setText(data) {
+  $(".carousel--header").text(data[projectIndex].title);
+  $(".carousel--text").text(data[projectIndex].content);
+  $(".carousel--link").attr("href", data[projectIndex].url);
 }
 function switchText(reverse = false) {
   $(".carousel--header").text(projects[projectIndex].title);
   $(".carousel--text").text(projects[projectIndex].content);
-  $(".carousel--link").attr("href", projects[projectIndex].url)
+  $(".carousel--link").attr("href", projects[projectIndex].url);
 }
 
 function switchTextMobile(reverse = false) {
   $(".carousel-mobile--title").text(projects[projectIndex].title);
   $(".carousel-mobile--description").text(projects[projectIndex].content);
-  $(".carousel--link").attr("href", projects[projectIndex].url) // CAROUSEL--BUTTON-MOBILE?
+  $(".carousel--link").attr("href", projects[projectIndex].url); // CAROUSEL--BUTTON-MOBILE?
 }
 
-function setImages() {
-  for (var i = 0; i < projects.length; i++) {
-    $("." + classes[i]).children()[0].src = projects[i].image;
+function setImages(data) {
+  for (var i = 0; i < data.length; i++) {
+    $("." + classes[i]).children()[0].src = data[i].image;
   }
 
   $(".carousel-mobile--image").css(
     "background-image",
-    `url(${projects[projectIndex].image})`
+    `url(${data[projectIndex].image})`
   );
 }
 
@@ -104,16 +102,28 @@ function shiftClasses(slides, classes, reverse = false) {
   }
 }
 
-function cacheImages() {
+function cacheImages(data) {
   var cache = [];
   for (let i = 0; i < numProjects; i++) {
     let cachedImg = new Image();
-    cachedImg.src = projects[i].image;
+    cachedImg.src = data[i].image;
     cache.push(cachedImg);
   }
 }
+var projects = {};
+$(document).ready(function () {
+  $.getJSON("./js/data.json", function (data) {
+    projects = data;
+    console.log(data);
+    cacheImages(data);
+    setText(data);
+    setImages(data);
+    switchTextMobile(data);
+  }).fail(function () {
+    console.log("An error has occurred.");
+  });
+});
 
-const projects = projectsJSON;
 var numProjects = projects.length;
 var projectIndex = 2;
 var classes = [
@@ -124,32 +134,34 @@ var classes = [
   "carousel--pos4",
 ];
 
-cacheImages();
-setText();
-setImages();
-switchTextMobile();
+setTimeout(() => {}, "500");
+
 $(".switch-down").click(function () {
-  if (!$(this).hasClass('waitingForTimeout')) {
+  if (!$(this).hasClass("waitingForTimeout")) {
     // do whatever when it's active.
     incrementIndex();
     switchText();
     var slides = getSlides();
     shiftClasses(slides, classes);
     classes = shiftList(classes);
-    $(this).addClass("waitingForTimeout")
-    setTimeout(() => { $(".switch-down").removeClass("waitingForTimeout") }, "700")
+    $(this).addClass("waitingForTimeout");
+    setTimeout(() => {
+      $(".switch-down").removeClass("waitingForTimeout");
+    }, "700");
   }
 });
 
 $(".switch-up").click(function () {
-  if (!$(this).hasClass('waitingForTimeout')) {
+  if (!$(this).hasClass("waitingForTimeout")) {
     incrementIndex(true);
     switchText(true);
     var slides = getSlides();
     shiftClasses(slides, classes, true);
     classes = shiftList(classes, true);
-    $(this).addClass("waitingForTimeout")
-    setTimeout(() => { $(".switch-up").removeClass("waitingForTimeout") }, "700")
+    $(this).addClass("waitingForTimeout");
+    setTimeout(() => {
+      $(".switch-up").removeClass("waitingForTimeout");
+    }, "700");
   }
 });
 
