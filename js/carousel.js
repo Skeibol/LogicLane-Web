@@ -8,6 +8,9 @@ function setText(data) {
   $(".carousel--link").attr("href", data[projectIndex].url);
 }
 function switchText(reverse = false) {
+  console.log(projects[5]);
+  console.log(projectIndex);
+  console.log(numProjects);
   $(".carousel--header").text(projects[projectIndex].title);
   $(".carousel--text").text(projects[projectIndex].content);
   $(".carousel--link").attr("href", projects[projectIndex].url);
@@ -111,20 +114,20 @@ function cacheImages(data) {
   }
 }
 var projects = {};
+var numProjects = 0;
 $(document).ready(function () {
   $.getJSON("./js/data.json", function (data) {
     projects = data;
-    console.log(data);
     cacheImages(data);
     setText(data);
     setImages(data);
     switchTextMobile(data);
+    numProjects = data.length;
   }).fail(function () {
     console.log("An error has occurred.");
   });
 });
 
-var numProjects = projects.length;
 var projectIndex = 2;
 var classes = [
   "carousel--pos0",
