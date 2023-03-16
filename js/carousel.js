@@ -7,18 +7,18 @@ function getSlides() {
 function setText() {
   $(".carousel--header").text(projects[projectIndex].title);
   $(".carousel--text").text(projects[projectIndex].content);
-  $(".carousel--button").attr("href", projects[projectIndex].url);
+  $(".carousel--link").attr("href", projects[projectIndex].url);
 }
 function switchText(reverse = false) {
   $(".carousel--header").text(projects[projectIndex].title);
   $(".carousel--text").text(projects[projectIndex].content);
-  $(".carousel--button").attr("href", projects[projectIndex].url)
+  $(".carousel--link").attr("href", projects[projectIndex].url)
 }
 
 function switchTextMobile(reverse = false) {
   $(".carousel-mobile--title").text(projects[projectIndex].title);
   $(".carousel-mobile--description").text(projects[projectIndex].content);
-  $(".carousel--button").attr("href", projects[projectIndex].url) // CAROUSEL--BUTTON-MOBILE?
+  $(".carousel--link").attr("href", projects[projectIndex].url) // CAROUSEL--BUTTON-MOBILE?
 }
 
 function setImages() {

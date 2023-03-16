@@ -40,7 +40,7 @@ function scrollUpdate() {
   if (window.innerWidth > 760) {
     sliderWrap.style.overflow = "hidden";
     if (!sliderHover) {
-      scrollPos -= 1.5;
+      scrollPos -= 1;
     }
 
     if (clonesWidth + scrollPos >= sliderWidth) {

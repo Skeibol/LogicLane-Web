@@ -53,13 +53,19 @@ include "header.php";
             <!-- VIDEO SVG -->
             <svg xmlns="http://www.w3.org/2000/svg" width="1188.493" height="1119.957" viewBox="0 0 1188.493 1119.957">
                 <g id="Group_17" data-name="Group 17" transform="translate(328.772 -899.426)">
-                    <g id="Polygon_2" data-name="Polygon 2" transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
+                    <g id="Polygon_2" data-name="Polygon 2"
+                        transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
                         <path d="M388.5,0,777,622H0Z" stroke="none" />
-                        <path class="svg--fill" d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z" stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill"
+                            d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z"
+                            stroke="none" fill="#0ab59d" />
                     </g>
-                    <g id="Polygon_4" data-name="Polygon 4" transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
+                    <g id="Polygon_4" data-name="Polygon 4"
+                        transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
                         <path d="M463,0,926,742H0Z" stroke="none" />
-                        <path class="svg--fill" d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z" stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill"
+                            d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z"
+                            stroke="none" fill="#0ab59d" />
                     </g>
                 </g>
             </svg>
@@ -68,7 +74,8 @@ include "header.php";
         </div>
         <div class="about-us-col">
             <h2 class="about-us-title" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
-                Empowering Your Business with Innovative AI Solutions: <br> <strong style="color:var(--color-primary)">Meet LogicLane</strong>
+                Empowering Your Business with Innovative AI Solutions: <br> <strong
+                    style="color:var(--color-primary)">Meet LogicLane</strong>
             </h2>
             <p class="about-us-info">
                 We are a collaboration of AI developers, creating custom based solutions and developing smart software
@@ -88,7 +95,8 @@ include "header.php";
                 what
                 it can do for your business. Contact us to learn more and take the first step towards a brighter future.
                 <br><br>
-                <button class="btn-contact" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000"><a class="invert" href="contact-us.php">Contact us</a></button>
+                <button class="btn-contact" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000"><a
+                        class="invert" href="contact-us.php">Contact us</a></button>
             </p>
         </div>
     </div>
@@ -114,9 +122,9 @@ include "header.php";
                             and better business outcomes.</span>
                     </p>
                     <br>
-                    <p>&#9702; Dataset collection</p>
-                    <p>&#9702; Dataset annotiation</p>
-                    <p>&#9702; Data augmentation and clearing</p>
+                    <p class="card--list">&#9702; Dataset collection</p>
+                    <p class="card--list">&#9702; Dataset annotiation</p>
+                    <p class="card--list">&#9702; Data augmentation and clearing</p>
 
                 </div>
             </div>
@@ -130,10 +138,10 @@ include "header.php";
                             help you leverage the power of computer vision to optimize your business processes and
                             improve efficiency.</span>
                     </p><br>
-                    <p>&#9702; Detection by color</p>
-                    <p>&#9702; Shape detection</p>
-                    <p>&#9702; Image filtering and augmentation</p>
-                    <p>&#9702; Image stitching</p>
+                    <p class="card--list">&#9702; Detection by color</p>
+                    <p class="card--list">&#9702; Shape detection</p>
+                    <p class="card--list">&#9702; Image filtering and augmentation</p>
+                    <p class="card--list">&#9702; Image stitching</p>
 
                 </div>
             </div>
@@ -149,13 +157,13 @@ include "header.php";
                             insights from text-based data. Allowing you to better understand
                             customer feedback, analyze competitor data, and more.</span>
                     </p><br>
-                    <p>&#9702; Sentiment analisys</p>
-                    <p>&#9702; Topic analisys</p>
-                    <p>&#9702; Chatbots and virtual assistents</p>
-                    <p>&#9702; Text classification</p>
-                    <p>&#9702; Entity recognition</p>
-                    <p>&#9702; Natural language generation</p>
-                    <p>&#9702; Recommendation system</p>
+                    <p class="card--list">&#9702; Sentiment analisys</p>
+                    <p class="card--list">&#9702; Topic analisys</p>
+                    <p class="card--list">&#9702; Chatbots and virtual assistents</p>
+                    <p class="card--list">&#9702; Text classification</p>
+                    <p class="card--list">&#9702; Entity recognition</p>
+                    <p class="card--list">&#9702; Natural language generation</p>
+                    <p class="card--list">&#9702; Recommendation system</p>
 
                 </div>
             </div>
@@ -164,14 +172,13 @@ include "header.php";
                 <div class="testtext">
                     <h3>Artificial Intelligence</h3>
                     <hr>
-                    <p><span class="bolded">Harness the power of AI with our services. From
+                    <p><span class="bolded">Transform data into insights. Harness the power of AI with our services. From
                             machine learning to deep learning, we have the expertise to help businesses across a range
                             of industries leverage AI to improve operations, reduce costs, and gain a competitive
                             advantage.</span>
                     </p><br>
-                    <p>Transforming data into insights.</p>
-                    <p>&#9702; Supervised learning</p>
-                    <p>&#9702; Unsupervised learning</p>
+                    <p class="card--list">&#9702; Supervised learning</p>
+                    <p class="card--list">&#9702; Unsupervised learning</p>
 
                 </div>
             </div>
@@ -188,8 +195,8 @@ include "header.php";
                             infrastructure, our team of experienced developers will help you create a website that
                             showcases your brand and engages your target audience.</span>
                     </p><br>
-                    <p>&#9702; Custom web apps</p>
-                    <p>&#9702; Custom web pages</p>
+                    <p class="card--list">&#9702; Custom web apps</p>
+                    <p class="card--list">&#9702; Custom web pages</p>
                 </div>
             </div>
 
@@ -204,11 +211,11 @@ include "header.php";
                             help you can optimize your operations and gain a competitive edge.
                         </span>
                     </p><br>
-                    <p>&#9702; Face recognition</p>
-                    <p>&#9702; Optical flow</p>
-                    <p>&#9702; Hand gesture recognition</p>
-                    <p>&#9702; Visual quality inspection</p>
-                    <p>&#9702; Image-to-text</p>
+                    <p class="card--list">&#9702; Face recognition</p>
+                    <p class="card--list">&#9702; Optical flow</p>
+                    <p class="card--list">&#9702; Hand gesture recognition</p>
+                    <p class="card--list">&#9702; Visual quality inspection</p>
+                    <p class="card--list">&#9702; Image-to-text</p>
                 </div>
             </div>
         </div>
@@ -232,19 +239,25 @@ include "header.php";
         <p class="carousel-mobile--description">
         </p>
         <div class="carousel-mobile--arrow-holder">
-            <div class="carousel-mobile--arrow left"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+            <div class="carousel-mobile--arrow left"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53"
+                    viewBox="0 0 53 53">
                     <g id="Polygon_17" data-name="Polygon 17" transform="translate(0 53) rotate(-90)" fill="none">
                         <path d="M26.5,0,53,53H0Z" stroke="none" />
-                        <path d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z" stroke="none" fill="var(--color-primary)" />
+                        <path
+                            d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z"
+                            stroke="none" fill="var(--color-primary)" />
                     </g>
                 </svg>
 
 
             </div>
-            <div class=" carousel-mobile--arrow right"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+            <div class=" carousel-mobile--arrow right"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53"
+                    viewBox="0 0 53 53">
                     <g id="Polygon_17" data-name="Polygon 17" transform="translate(53) rotate(90)" fill="none">
                         <path d="M26.5,0,53,53H0Z" stroke="none" />
-                        <path d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z" stroke="none" fill="var(--color-primary)" />
+                        <path
+                            d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z"
+                            stroke="none" fill="var(--color-primary)" />
                     </g>
                 </svg>
 
@@ -254,10 +267,13 @@ include "header.php";
     </div>
 
     <div class=" carousel--left carousel--container">
-        <button class="switch-up" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
+        <button class="switch-up" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000"> <svg
+                xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_9" data-name="Polygon 9" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill"
+                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
+                        stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
@@ -277,19 +293,24 @@ include "header.php";
         <div class="carousel--slide carousel--pos4">
             <img class="carousel--image" src="" alt="project picture">
         </div>
-        <button class="switch-down" data-aos="fade-down" data-aos-offset="0" data-aos-duration="1000"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
+        <button class="switch-down" data-aos="fade-down" data-aos-offset="0" data-aos-duration="1000"><svg
+                xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_10" data-name="Polygon 10" transform="translate(73 72) rotate(-180)" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill"
+                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
+                        stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
     </div>
     <div class="carousel--right carousel--container carousel--info">
-        <button class="carousel--button">
-            <h3 class="carousel--header"></h3>
-            <i class="fa fa-github img--button"></i>
-        </button>
+        <a class="carousel--link" href="" target=”_blank” >
+            <button class="carousel--button">
+                <h3 class="carousel--header"></h3>
+                <i class="fa fa-github img--button"></i>
+            </button>
+        </a>
         <p class="carousel--text"></p>
     </div>
 </div>
@@ -382,104 +403,104 @@ include "header.php";
     </svg>
 </div>
 <div class="FAQ--container">
-    <h1 data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">FAQ</h1>
+<h2 class="services-title" style="margin-left:-20px !important;" data-aos="fade-right" data-aos-offset="0" data-aos-duration="1000">
+        We take care of our customers: <br> <strong style="color:var(--color-primary)">Development Principles
+            </strong></h2>
     <button class="FAQ--section">
         <!-- <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg"> -->
         <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
             <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
                 <path d="M13.5,0,27,26H0Z" stroke="none" />
-                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
+                <path
+                    d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z"
+                    stroke="none" fill="#0098d4" />
             </g>
         </svg>
-        <p class="FAQ--Question">... efficiency</p>
+        <p class="FAQ--Question">Focus on users</p>
     </button>
     <div class="FAQ--panel">
         <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa facilis iure quo aliquam blanditiis libero
-            earum voluptatem nisi error totam eligendi architecto vel, dolor accusantium non officiis commodi
-            necessitatibus in repellendus eveniet. Odio, quidem esse? Blanditiis accusamus dolores veniam nesciunt ipsa,
-            sunt odit corporis nobis aliquid, laborum incidunt quos sapiente necessitatibus. Porro fuga modi perferendis
-            debitis vitae recusandae ipsam temporibus pariatur autem placeat sed nam at doloribus nulla ab magnam totam,
-            explicabo illo ullam laudantium adipisci, ut corrupti distinctio. Labore ut iusto magnam quo mollitia. Rem
-            voluptate asperiores similique cumque fugiat repudiandae quaerat! Quam exercitationem nisi quod minima
-            voluptatem inventore officia similique, ad illum esse magni obcaecati. Optio dicta illum, perspiciatis nemo,
-            suscipit odit, asperiores nesciunt cumque pariatur impedit magnam corrupti ipsa! Illum alias quibusdam,
-            aliquid fugit suscipit modi provident voluptates cumque nihil error nemo illo ea obcaecati, impedit
-            voluptatum cupiditate aliquam sit vitae reiciendis voluptatem nobis quae incidunt ullam vero. Dicta porro
-            magnam, neque eos distinctio impedit incidunt autem necessitatibus harum quia unde. Voluptates qui
-            repellendus aspernatur consequuntur, soluta aliquid culpa vitae animi nostrum, cum, exercitationem accusamus
-            laborum doloremque reiciendis facilis vero quam vel earum at quaerat dolores? Modi alias a voluptates
-            similique, debitis fugiat aspernatur quidem explicabo quo!ž
+            Our strategy is built on recognizing customer needs and making sure customer satisfaction is the top
+            priority in every phase of the our shared journey. We thrive in creating bespoke software, thus making our
+            software build uniquely tailored to accommodate our customers needs and preferences.
+
         </p>
     </div>
     <button class="FAQ--section">
         <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
             <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
                 <path d="M13.5,0,27,26H0Z" stroke="none" />
-                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
+                <path
+                    d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z"
+                    stroke="none" fill="#0098d4" />
             </g>
         </svg>
-        <p class="FAQ--Question">... proffesional</p>
+        <p class="FAQ--Question">Project management</p>
     </button>
     <div class="FAQ--panel">
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
-            odio tenetur maxime facere autem tempore facilis vel, debitis,
-            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
-            Dolores, similique?
+            We offer complete management of your development projects, taking care of everything from software
+            development to progress monitoring and reporting. We coordinate all resources, including managing external
+            partners for necessary integrations.
+
         </p>
     </div>
     <button class="FAQ--section">
         <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
             <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
                 <path d="M13.5,0,27,26H0Z" stroke="none" />
-                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
+                <path
+                    d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z"
+                    stroke="none" fill="#0098d4" />
             </g>
         </svg>
-        <p class="FAQ--Question">Section 3</p>
+        <p class="FAQ--Question">Support and maintenance</p>
     </button>
     <div class="FAQ--panel">
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
-            odio tenetur maxime facere autem tempore facilis vel, debitis,
-            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
-            Dolores, similique?
+            We guarantee to stand by your side and provide continuous assistance after releasing the production
+            software. Our commitment is to sustain and enhance the tool, ensuring compliance with the latest industry
+            standards, and promptly offering help as needed.
+
         </p>
     </div>
     <button class="FAQ--section">
         <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
             <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
                 <path d="M13.5,0,27,26H0Z" stroke="none" />
-                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
+                <path
+                    d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z"
+                    stroke="none" fill="#0098d4" />
             </g>
         </svg>
 
-        <p class="FAQ--Question">Section 4</p>
+        <p class="FAQ--Question">Cutting Edge</p>
     </button>
     <div class="FAQ--panel">
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
-            odio tenetur maxime facere autem tempore facilis vel, debitis,
-            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
-            Dolores, similique?
+            We are at the forefront of innovation and technology, constantly pushing the boundaries of what is possible
+            in the industry. We develop state-of-the-art software solutions that are designed to meet the evolving needs
+            of clients and provide them with a competitive edge. We employ top talent and leverage the latest
+            technologies to create groundbreaking products and services.
         </p>
     </div>
     <button class="FAQ--section">
         <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
             <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
                 <path d="M13.5,0,27,26H0Z" stroke="none" />
-                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
+                <path
+                    d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z"
+                    stroke="none" fill="#0098d4" />
             </g>
         </svg>
 
-        <p class="FAQ--Question">Section 5</p>
+        <p class="FAQ--Question">Competitive Pricing</p>
     </button>
     <div class="FAQ--panel">
         <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eaque
-            odio tenetur maxime facere autem tempore facilis vel, debitis,
-            repudiandae blanditiis ea maiores, beatae natus ex minima officiis!
-            Dolores, similique?
+            At LogicLane, we believe in providing innovative software solutions at competitive prices. We offer
+            cost-effective pricing models without compromising on quality and are committed to providing our clients
+            with customized software solutions that meet their unique requirements at a fair price.
         </p>
     </div>
 </div>
@@ -493,13 +514,13 @@ include "header.php";
 
 
 <!-- QUOTE -->
-<h1 class="quote" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2000">
+<h2 class="quote" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2000">
     <strong style="color:var(--color-primary)">&#8222;</strong> The true benefit of AI is not that it replaces human
     thinking, but that it amplifies it.
     <strong style="color:var(--color-primary)">&#8221;</strong>
     <p>— Ginni Rometty</p>
 
-</h1>
+</h2>
 
 
 

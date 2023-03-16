@@ -1,32 +1,32 @@
 [
     {
-       "image":"images/samples/sample1.jpg",
-       "title":"1 Mountain",
-       "content":"Praesent blandit neque dui, sed elementum ligula pretium at. non\n            dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh\n            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend\n            elit.",
-       "url" : "sample1.com"
+       "image":"images/projects/chatbot.png",
+       "title":"Chat Bot - Conversational assistant",
+       "content":"Project is a showcase of artificial intelligence and natural language processing. It contains chatbot model that is trained to recognize intents of users and respond correctly.  Bot understands greetings and goodbyes as well as users moods and will respond accordingly.",
+       "url" : "https://github.com/IgorJonjic/LogicLaneBot"
     },
     {
-       "image":"images/samples/NN.jpg",
-       "title":"2 Neural network",
-       "content":"Praesent blandit neque dui, . Sed ultrices, libero non\n            dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh\n            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend\n            elit.",
-       "url" : "sample2.com"
+       "image":"images/projects/NN.webp",
+       "title":"Educational Neural Network",
+       "content":"ToNNi is an educational neural network developed completely from scratch by our team. Its purpose is to be used in teaching young developers the basics of neural nets and their inner workings. Its simplicity and easy to understand infrastructure makes it stand out from bigger commercial frameworks",
+       "url" : "https://gitlab.com/big-projects1/cabininthewoodsnetwork"
+      },
+      {
+         "image":"images/projects/pose-detection.png",
+         "title":"Pose Tracking - Workout helper",
+         "content":"Algorithm detects key points on human body and with applience of mathematical methods tracks number of repetitions for given exercise. It is also able to track if those exercises were made with full range of motion. Exercises covered so far are pullups, pushups and squats.",
+         "url" : "https://github.com/m-soldo/mediapipe_exercise"
+      },
+    {
+       "image":"images/projects/text-classification.png",
+       "title":"Text Classification",
+       "content":"The project contains 3 different classification algorithms that were used on an e-commerce dataset downloaded from Kaggle.com. The dataset is edited as a csv file and contains 2 columns with text describing the product and the corresponding class. Algorithms are rated according to accuracy and a confusion matrix is ​​presented for each algorithm.",
+       "url" : "https://github.com/IgorJonjic/Comparing-Text-Classification-algorithms"
     },
     {
-       "image":"images/samples/sample2.jpg",
-       "title":"3 Sunset",
-       "content":"Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non\n            dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh\n            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend\n            elit.",
-       "url" : "sample3.com"
-    },
-    {
-       "image":"images/samples/sample3.jpg",
-       "title":"4 Hobbits",
-       "content":"Praesent blandit neque dui, sed elementum ligula pretium at. Sed ultrices, libero non\n            dignissim , sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh\n            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend\n            elit.",
-       "url" : "sample4.com"
-    },
-    {
-       "image":"images/samples/sample4.jpg",
-       "title":"5 Girl on rocks",
-       "content":"dignissim tincidunt, sapien ante commodo orci, nec semper magna neque sit amet nunc. Pellentesque quis nibh\n            eget ante facilisis dictum. Fusce id quam justo. Aliquam interdum faucibus fermentum. Proin et eleifend\n            elit.",
-       "url" : "sample5.com"
-    }
+      "image":"images/projects/text-summarization.png",
+      "title":"Large Document Summarization",
+      "content":"This model takes large documents such as scientific papers, big essays and newspaper articles and condenses them to a smaller number of sentences set by the user. This tool is helpful for analyzing big amounts of data that would take a long time to be processed by a human",
+      "url" : "https://github.com/dvorel/text_summarization"
+   }
  ]
