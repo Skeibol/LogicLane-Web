@@ -227,7 +227,7 @@ body {
   overflow-x: hidden;
   background-color: var(--color-primary-background);
   scroll-behavior: smooth;
-  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
 }
 
 body::-webkit-scrollbar {
@@ -626,7 +626,7 @@ ul li {
 }
 
 .card-row {
-  height: 70vh;
+  height: 42rem;
 }
 
 .testtext {
@@ -653,18 +653,19 @@ ul li {
   height: 100%;
   color: var(--white);
   transition: filter, background-image, background-size, height, margin, scale 0.6s, 0.6s, 0.6s;
-  text-align: left;
+}
+
+.card-box h3 {
+  text-align: center;
 }
 
 .testtext {
   color: var(--white);
-  padding: 0 50px 0 50px;
+  padding: 10%;
 }
 
 .card-box h3 {
   transition: font-size 0.6s;
-
-
 }
 
 .card-box p {
@@ -696,6 +697,11 @@ ul li {
   background-color: var(--color-primary) !important;
   filter: grayscale(80%);
   filter: none;
+  text-align: left;
+}
+
+.expand h3 {
+  text-align: left !important;
 }
 
 .card-box br {

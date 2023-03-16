@@ -99,14 +99,14 @@
   }
 
   .btn-contact {
-    width: 30%;
-    padding: 8px 0 8px 0;
+    width: auto;
+    padding: 8px 10px 8px 10px;
     border: 0.5px solid var(--color-primary);
   }
 
   .btn-learn-more {
-    width: 30%;
-    padding: 8px 0 8px 0;
+    width: auto;
+    padding: 8px 10px 8px 10px;
     background: none;
     margin-left: 25px;
     border: 0.5px solid var(--color-primary);
@@ -167,6 +167,11 @@
   .testtext {
     margin: auto;
     padding: 30px;
+    text-align: left !important;
+  }
+
+  .testtext h3 {
+    text-align: left !important;
   }
 
 

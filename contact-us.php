@@ -38,11 +38,11 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
         //Keep it simple - don't use HTML
         $mail->isHTML(false);
         //Build a simple message body
-        $mail->Body = <<<EOT
-        Email: {$_POST['email']}
-        Name: {$_POST['name']}
-        Message: {$_POST['message']}
-        EOT;
+        $mail->Body  = "Korisnik " . $_POST['name'] . " je poslao sljedeću poruku: <br/><br/>";
+        $mail->Body  .= "<b>" . $_POST['message'] . "</b>. <br/><br/>";
+
+
+
         //Send the message, check for errors
         if (!$mail->send()) {
             //The reason for failing to send will be in $mail->ErrorInfo
