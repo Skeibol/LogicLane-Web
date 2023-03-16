@@ -219,7 +219,7 @@ body::-webkit-scrollbar {
   position: absolute;
   width: 85%;
   transform: scaleX(0);
-  height: 1.5px;
+  height: 1px;
   bottom: 8;
   left: 5;
   background-color: var(--white);
@@ -231,6 +231,7 @@ body::-webkit-scrollbar {
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   left: 6px;
+  height: 1.5px !important;
   transform-origin: bottom left;
 
 }
@@ -592,7 +593,13 @@ ul li {
   margin: 0 auto 0 auto;
 }
 
+.card-box hr {
+  display: none;
+}
 
+.expand hr {
+  display: block;
+}
 
 .shrink {
   height: 0% !important;

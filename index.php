@@ -105,13 +105,15 @@ include "header.php";
             <div class="card-box h-30">
                 <div class="testtext">
                     <h3>Data Preprocessing</h3>
+                    <hr>
                     <p><span class="bolded">We understand the importance of clean and structured data in
                             achieving accurate insights and predictions. That's why we offer expert data preprocessing
                             services to help businesses transform their raw data into valuable information. Our
-                            experienced team uses the latest techniques and technologies to ensure that data is cleaned,
-                            normalized, and optimized for machine learning models, leading to more accurate predictions
+                            team uses the latest techniques to ensure that data is cleaned,
+                            and optimized for machine learning models, leading to more accurate predictions
                             and better business outcomes.</span>
-                    </p><br>
+                    </p>
+                    <br>
                     <p>&#9702; Dataset collection</p>
                     <p>&#9702; Dataset annotiation</p>
                     <p>&#9702; Data augmentation and clearing</p>
@@ -122,9 +124,8 @@ include "header.php";
             <div class="card-box h-70">
                 <div class="testtext">
                     <h3>Traditional Computer Vision</h3>
-                    <p><span class="bolded">Computer vision has been used in industries such as manufacturing and
-                            healthcare for years, but recent advancements in technology have made it more accessible
-                            than ever before. Our traditional computer vision services can help you extract valuable
+                    <hr>
+                    <p><span class="bolded">Our traditional computer vision services can help you extract valuable
                             information from digital images, such as object recognition and image segmentation. Let us
                             help you leverage the power of computer vision to optimize your business processes and
                             improve efficiency.</span>
@@ -142,10 +143,10 @@ include "header.php";
             <div class="card-box h-70">
                 <div class="testtext">
                     <h3>Natural Language Processing</h3>
+                    <hr>
                     <p><span class="bolded">Communication is key in today's business world, and our NLP services can
                             help your organization improve communication and gain valuable
-                            insights from text-based data. Our NLP developers can help you with tasks such as sentiment
-                            analysis, text classification, and machine translation, allowing you to better understand
+                            insights from text-based data. Allowing you to better understand
                             customer feedback, analyze competitor data, and more.</span>
                     </p><br>
                     <p>&#9702; Sentiment analisys</p>
@@ -162,11 +163,11 @@ include "header.php";
             <div class="card-box h-30">
                 <div class="testtext">
                     <h3>Artificial Intelligence</h3>
+                    <hr>
                     <p><span class="bolded">Harness the power of AI with our services. From
                             machine learning to deep learning, we have the expertise to help businesses across a range
                             of industries leverage AI to improve operations, reduce costs, and gain a competitive
-                            advantage. Whether you need help with predictive analytics, computer vision, or natural
-                            language processing, our team of AI experts is here for your needs.</span>
+                            advantage.</span>
                     </p><br>
                     <p>Transforming data into insights.</p>
                     <p>&#9702; Supervised learning</p>
@@ -180,13 +181,13 @@ include "header.php";
             <div class="card-box h-30">
                 <div class="testtext">
                     <h3>Web Development</h3>
+                    <hr>
                     <p><span class="bolded">In today's digital age, a strong online presence is essential for businesses
                             of all sizes. Our web development services can help you create a professional, user-friendly
                             website or web application that meets your specific needs. From front-end design to back-end
                             infrastructure, our team of experienced developers will help you create a website that
                             showcases your brand and engages your target audience.</span>
                     </p><br>
-                    <p>&#9702; Model deployment</p>
                     <p>&#9702; Custom web apps</p>
                     <p>&#9702; Custom web pages</p>
                 </div>
@@ -195,11 +196,11 @@ include "header.php";
             <div class="card-box h-70">
                 <div class="testtext">
                     <h3>Deep Learning CV</h3>
+                    <hr>
                     <p><span class="bolded">With the increasing availability of big data and advancements in deep
                             learning technology, deep learning computer vision has become an increasingly popular
-                            tool for businesses across a range of industries. Our deep learning CV services can help you
-                            gain valuable insights from images and videos, such as object detection and facial
-                            recognition. Whether you're in the automotive industry or the healthcare sector, with our
+                            tool for businesses across a range of industries. Whether you're in the automotive industry
+                            or the healthcare sector, with our
                             help you can optimize your operations and gain a competitive edge.
                         </span>
                     </p><br>
@@ -302,6 +303,9 @@ include "header.php";
 
 <!-- TECHNOLOGY -->
 <div class="slider-wrap">
+    <h2 class="text-center tech-title">
+        We take pride in our knowledge</h2>
+
     <div class="slider">
         <div class="slider-item">
             <div class="img-div"></div>
