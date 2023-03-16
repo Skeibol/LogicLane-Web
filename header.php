@@ -41,6 +41,9 @@
     <link rel="stylesheet" href="css\style.css">
     <link rel="stylesheet" href="css\style-768.css">
     <link rel="stylesheet" href="css\style-992.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@40,200,0,-25" />
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">

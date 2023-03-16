@@ -9,8 +9,6 @@ include "header.php";
         <div class="hero-info">
             <h1 class="hero-title">
                 The power of AI at your fingertips.
-                <!-- <span class="bolded">you!</span> -->
-
             </h1>
             <p class="hero-subtitle">From planning to implementation and everything in between, we are available to you
                 at every step of the way.
@@ -51,23 +49,17 @@ include "header.php";
 <!-- ABOUT US -->
 <div class="about-us-container">
     <div class="about-us-content row">
-        <div class="video-container">
+        <div class="video-container" data-aos="fade-right" data-aos-offset="400" data-aos-duration="2000">
             <!-- VIDEO SVG -->
             <svg xmlns="http://www.w3.org/2000/svg" width="1188.493" height="1119.957" viewBox="0 0 1188.493 1119.957">
                 <g id="Group_17" data-name="Group 17" transform="translate(328.772 -899.426)">
-                    <g id="Polygon_2" data-name="Polygon 2"
-                        transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
+                    <g id="Polygon_2" data-name="Polygon 2" transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
                         <path d="M388.5,0,777,622H0Z" stroke="none" />
-                        <path class="svg--fill"
-                            d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z"
-                            stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill" d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z" stroke="none" fill="#0ab59d" />
                     </g>
-                    <g id="Polygon_4" data-name="Polygon 4"
-                        transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
+                    <g id="Polygon_4" data-name="Polygon 4" transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
                         <path d="M463,0,926,742H0Z" stroke="none" />
-                        <path class="svg--fill"
-                            d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z"
-                            stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill" d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z" stroke="none" fill="#0ab59d" />
                     </g>
                 </g>
             </svg>
@@ -75,12 +67,12 @@ include "header.php";
 
         </div>
         <div class="about-us-col">
-            <h2 class="about-us-title">
-                Who are we?
+            <h2 class="about-us-title" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
+                Empowering Your Business with Innovative AI Solutions: <br> <strong style="color:var(--color-primary)">Meet LogicLane</strong>
             </h2>
             <p class="about-us-info">
                 We are a collaboration of AI developers, creating custom based solutions and developing smart software
-                is our passion<br><br>
+                is our passion.<br><br>
                 Our team of experts is dedicated to delivering AI software that is both innovative and reliable, so you
                 can be confident that you are working with a trusted partner that is committed to your success.
 
@@ -96,40 +88,52 @@ include "header.php";
                 what
                 it can do for your business. Contact us to learn more and take the first step towards a brighter future.
                 <br><br>
-                <button class="btn-contact"><a class="invert" href="contact-us.php">Contact us</a></button>
+                <button class="btn-contact" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000"><a class="invert" href="contact-us.php">Contact us</a></button>
             </p>
         </div>
     </div>
 </div>
 
+
 <!-- SERVICES -->
 <div class="services-container" id="services">
-    <h2 class="services-title">
-        Services</h2>
+    <h2 class="services-title" data-aos="fade-right" data-aos-offset="0" data-aos-duration="1000">
+        From Data to Deployment: <br> <strong style="color:var(--color-primary)">Our End-to-End Service
+            Offerings</strong></h2>
     <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 card-row">
             <div class="card-box h-30">
                 <div class="testtext">
                     <h3>Data Preprocessing</h3>
+                    <p><span class="bolded">We understand the importance of clean and structured data in
+                            achieving accurate insights and predictions. That's why we offer expert data preprocessing
+                            services to help businesses transform their raw data into valuable information. Our
+                            experienced team uses the latest techniques and technologies to ensure that data is cleaned,
+                            normalized, and optimized for machine learning models, leading to more accurate predictions
+                            and better business outcomes.</span>
+                    </p><br>
                     <p>&#9702; Dataset collection</p>
                     <p>&#9702; Dataset annotiation</p>
                     <p>&#9702; Data augmentation and clearing</p>
-                    <p><span class="bolded">Exploit our knowledge of advanced statistical techniques, find patterns and
-                            make sense of raw data, improve efficiency and create more relevant business
-                            strategies.</span> </p>
+
                 </div>
             </div>
 
             <div class="card-box h-70">
                 <div class="testtext">
                     <h3>Traditional Computer Vision</h3>
+                    <p><span class="bolded">Computer vision has been used in industries such as manufacturing and
+                            healthcare for years, but recent advancements in technology have made it more accessible
+                            than ever before. Our traditional computer vision services can help you extract valuable
+                            information from digital images, such as object recognition and image segmentation. Let us
+                            help you leverage the power of computer vision to optimize your business processes and
+                            improve efficiency.</span>
+                    </p><br>
                     <p>&#9702; Detection by color</p>
                     <p>&#9702; Shape detection</p>
                     <p>&#9702; Image filtering and augmentation</p>
                     <p>&#9702; Image stitching</p>
-                    <p><span class="bolded">Detect and identify people, supervise production lines, detect anomalies or
-                            classify visual information, track movements, understand poses and more.</span>
-                    </p>
+
                 </div>
             </div>
         </div>
@@ -137,8 +141,13 @@ include "header.php";
         <div class="col-lg-4 mb-4 mb-lg-0 card-row">
             <div class="card-box h-70">
                 <div class="testtext">
-
                     <h3>Natural Language Processing</h3>
+                    <p><span class="bolded">Communication is key in today's business world, and our NLP services can
+                            help your organization improve communication and gain valuable
+                            insights from text-based data. Our NLP developers can help you with tasks such as sentiment
+                            analysis, text classification, and machine translation, allowing you to better understand
+                            customer feedback, analyze competitor data, and more.</span>
+                    </p><br>
                     <p>&#9702; Sentiment analisys</p>
                     <p>&#9702; Topic analisys</p>
                     <p>&#9702; Chatbots and virtual assistents</p>
@@ -153,9 +162,16 @@ include "header.php";
             <div class="card-box h-30">
                 <div class="testtext">
                     <h3>Artificial Intelligence</h3>
+                    <p><span class="bolded">Harness the power of AI with our services. From
+                            machine learning to deep learning, we have the expertise to help businesses across a range
+                            of industries leverage AI to improve operations, reduce costs, and gain a competitive
+                            advantage. Whether you need help with predictive analytics, computer vision, or natural
+                            language processing, our team of AI experts is here for your needs.</span>
+                    </p><br>
+                    <p>Transforming data into insights.</p>
                     <p>&#9702; Supervised learning</p>
                     <p>&#9702; Unsupervised learning</p>
-                    <p>Transforming data into insights.</p>
+
                 </div>
             </div>
         </div>
@@ -164,6 +180,12 @@ include "header.php";
             <div class="card-box h-30">
                 <div class="testtext">
                     <h3>Web Development</h3>
+                    <p><span class="bolded">In today's digital age, a strong online presence is essential for businesses
+                            of all sizes. Our web development services can help you create a professional, user-friendly
+                            website or web application that meets your specific needs. From front-end design to back-end
+                            infrastructure, our team of experienced developers will help you create a website that
+                            showcases your brand and engages your target audience.</span>
+                    </p><br>
                     <p>&#9702; Model deployment</p>
                     <p>&#9702; Custom web apps</p>
                     <p>&#9702; Custom web pages</p>
@@ -173,6 +195,14 @@ include "header.php";
             <div class="card-box h-70">
                 <div class="testtext">
                     <h3>Deep Learning CV</h3>
+                    <p><span class="bolded">With the increasing availability of big data and advancements in deep
+                            learning technology, deep learning computer vision has become an increasingly popular
+                            tool for businesses across a range of industries. Our deep learning CV services can help you
+                            gain valuable insights from images and videos, such as object detection and facial
+                            recognition. Whether you're in the automotive industry or the healthcare sector, with our
+                            help you can optimize your operations and gain a competitive edge.
+                        </span>
+                    </p><br>
                     <p>&#9702; Face recognition</p>
                     <p>&#9702; Optical flow</p>
                     <p>&#9702; Hand gesture recognition</p>
@@ -183,7 +213,6 @@ include "header.php";
         </div>
     </div>
 </div>
-
 
 <!-- CAROUSEL -->
 <div class="bcg-1">
@@ -202,25 +231,19 @@ include "header.php";
         <p class="carousel-mobile--description">
         </p>
         <div class="carousel-mobile--arrow-holder">
-            <div class="carousel-mobile--arrow left"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53"
-                    viewBox="0 0 53 53">
+            <div class="carousel-mobile--arrow left"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
                     <g id="Polygon_17" data-name="Polygon 17" transform="translate(0 53) rotate(-90)" fill="none">
                         <path d="M26.5,0,53,53H0Z" stroke="none" />
-                        <path
-                            d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z"
-                            stroke="none" fill="var(--color-primary)" />
+                        <path d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z" stroke="none" fill="var(--color-primary)" />
                     </g>
                 </svg>
 
 
             </div>
-            <div class=" carousel-mobile--arrow right"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53"
-                    viewBox="0 0 53 53">
+            <div class=" carousel-mobile--arrow right"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
                     <g id="Polygon_17" data-name="Polygon 17" transform="translate(53) rotate(90)" fill="none">
                         <path d="M26.5,0,53,53H0Z" stroke="none" />
-                        <path
-                            d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z"
-                            stroke="none" fill="var(--color-primary)" />
+                        <path d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z" stroke="none" fill="var(--color-primary)" />
                     </g>
                 </svg>
 
@@ -230,12 +253,10 @@ include "header.php";
     </div>
 
     <div class=" carousel--left carousel--container">
-        <button class="switch-up"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
+        <button class="switch-up" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_9" data-name="Polygon 9" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill"
-                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
-                        stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
@@ -255,23 +276,23 @@ include "header.php";
         <div class="carousel--slide carousel--pos4">
             <img class="carousel--image" src="" alt="project picture">
         </div>
-        <button class="switch-down"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
+        <button class="switch-down" data-aos="fade-down" data-aos-offset="0" data-aos-duration="1000"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_10" data-name="Polygon 10" transform="translate(73 72) rotate(-180)" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill"
-                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
-                        stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
     </div>
     <div class="carousel--right carousel--container carousel--info">
-        <h3 class="carousel--header"></h3>
+        <button class="carousel--button">
+            <h3 class="carousel--header"></h3>
+            <i class="fa fa-github img--button"></i>
+        </button>
         <p class="carousel--text"></p>
     </div>
 </div>
 <div class="bcg">
-    <!-- <img src="images/logo/bg-line-bottom.svg" alt=""> -->
     <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1917.54 218.41">
         <polyline class="cls-1-bg" points="0.54 188.67 0.54 0 1917.54 0" />
         <line class="cls-2-bg" x1="0.04" y1="218" x2="1917.04" y2="29.33" />
@@ -280,71 +301,28 @@ include "header.php";
 
 
 <!-- TECHNOLOGY -->
-<div class="tech-container">
-    <div class="tech-content">
-        <div class="tech-items">
-            <h2 class="text-center tech-title">
-                We take pride in our knowledge</h2>
-            <div class="row row-tech">
-                <div class="tech-item">
-                    <img src="images/technologies/c-sharp.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/cplusplus.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/php.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/python.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/pandas.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/keras.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/scikit.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/pytorch.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/tf.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/js.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/node.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/react.png" alt="" class="tf">
-                </div>
-                <!-- mediapipe -->
-                <!-- mongodb -->
-                <!-- matplotlib -->
-                <div class="tech-item">
-                    <img src="images/technologies/css.png" alt="" class="tf">
-                </div>
-                <div class="tech-item">
-                    <img src="images/technologies/sql.png" alt="" class="tf">
-                </div>
-
-
-
-            </div>
+<div class="slider-wrap">
+    <div class="slider">
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
+        </div>
+        <div class="slider-item">
+            <div class="img-div"></div>
         </div>
     </div>
 </div>
-<!-- QUOTE -->
-<h1 class="quote">
-    <strong style="color:var(--color-primary)">&#8222;</strong> Simplicity is the soul of efficiency.
-    <strong style="color:var(--color-primary)">&#8221;</strong>
-</h1>
-
-
 
 <!-- FAQ -->
 
@@ -358,10 +336,16 @@ include "header.php";
     </svg>
 </div>
 <div class="FAQ--container">
-    <h1>FAQ</h1>
+    <h1 data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">FAQ</h1>
     <button class="FAQ--section">
-        <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
-        <p class="FAQ--Question">Section 1</p>
+        <!-- <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg"> -->
+        <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
+            <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
+                <path d="M13.5,0,27,26H0Z" stroke="none" />
+                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
+            </g>
+        </svg>
+        <p class="FAQ--Question">... efficiency</p>
     </button>
     <div class="FAQ--panel">
         <p>
@@ -383,8 +367,13 @@ include "header.php";
         </p>
     </div>
     <button class="FAQ--section">
-        <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
-        <p class="FAQ--Question">Section 2</p>
+        <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
+            <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
+                <path d="M13.5,0,27,26H0Z" stroke="none" />
+                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
+            </g>
+        </svg>
+        <p class="FAQ--Question">... proffesional</p>
     </button>
     <div class="FAQ--panel">
         <p>
@@ -395,7 +384,12 @@ include "header.php";
         </p>
     </div>
     <button class="FAQ--section">
-        <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
+        <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
+            <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
+                <path d="M13.5,0,27,26H0Z" stroke="none" />
+                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
+            </g>
+        </svg>
         <p class="FAQ--Question">Section 3</p>
     </button>
     <div class="FAQ--panel">
@@ -407,7 +401,13 @@ include "header.php";
         </p>
     </div>
     <button class="FAQ--section">
-        <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
+        <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
+            <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
+                <path d="M13.5,0,27,26H0Z" stroke="none" />
+                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
+            </g>
+        </svg>
+
         <p class="FAQ--Question">Section 4</p>
     </button>
     <div class="FAQ--panel">
@@ -419,7 +419,13 @@ include "header.php";
         </p>
     </div>
     <button class="FAQ--section">
-        <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg">
+        <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
+            <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
+                <path d="M13.5,0,27,26H0Z" stroke="none" />
+                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
+            </g>
+        </svg>
+
         <p class="FAQ--Question">Section 5</p>
     </button>
     <div class="FAQ--panel">
@@ -438,6 +444,16 @@ include "header.php";
         <line class="cls-2-bg" x1="0.04" y1="218" x2="1917.04" y2="29.33" />
     </svg>
 </div>
+
+
+<!-- QUOTE -->
+<h1 class="quote" data-aos="zoom-in" data-aos-offset="0" data-aos-duration="2000">
+    <strong style="color:var(--color-primary)">&#8222;</strong> The true benefit of AI is not that it replaces human
+    thinking, but that it amplifies it.
+    <strong style="color:var(--color-primary)">&#8221;</strong>
+    <p>— Ginni Rometty</p>
+
+</h1>
 
 
 

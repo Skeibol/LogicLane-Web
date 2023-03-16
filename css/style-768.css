@@ -10,6 +10,8 @@
     --color-primary: #0098d4;
   }
 
+
+
   .cls-2-bg {
     fill: none;
     stroke: var(--color-primary) !important;
@@ -148,12 +150,9 @@
 
   .testtext {
     margin: auto;
-    padding: 20px 0 20px 0;
+    padding: 30px;
   }
 
-  .testtext p {
-    margin-bottom: auto;
-  }
 
   .shrink {
     height: auto !important;
@@ -196,7 +195,7 @@
 
   /* TECHNOLOGIES */
 
-  .tech-items {
+  /* .tech-items {
     margin: 5%;
   }
 
@@ -217,6 +216,11 @@
 
   .tech-item {
     width: 70px;
+  } */
+  .img-div {
+
+    width: 100%;
+    height: 30%;
   }
 
   /* CAROUSEL??? */
@@ -333,6 +337,13 @@
     color: var(--color-message);
   }
 
+  .fa--contact {
+    font-size: var(--font-size-title3) !important;
+    padding-right: 10px;
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
   .map {
     text-align: center;
     padding: 0 5% 5% 5%;
@@ -380,14 +391,14 @@
   .footer--container {
     height: auto;
     margin-top: 20px;
-    padding: 10% 2% 10% 2%;
+    padding: 5% 2% 5% 2%;
 
   }
 
   .footer--content {
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
     justify-content: space-between;
   }
@@ -396,22 +407,13 @@
     margin: 15px;
   }
 
-  .footer--media-holder {
-    margin-bottom: 0;
-    padding-top: 0;
-  }
 
-  .fa {
-    font-size: var(--font-size-title3) !important;
-    padding: 5px;
-    color: var(--color-secondary);
-    text-decoration: none;
-    transition: color 0.3s ease-in;
+  .footer--section>.fa {
+    font-size: var(--font-size-title) !important;
   }
 
   .footer--logo {
-    width: 20%;
-    object-fit: cover;
+    width: 10vw;
   }
 
 

@@ -7,15 +7,18 @@ function getSlides() {
 function setText() {
   $(".carousel--header").text(projects[projectIndex].title);
   $(".carousel--text").text(projects[projectIndex].content);
+  $(".carousel--button").attr("href", projects[projectIndex].url);
 }
 function switchText(reverse = false) {
   $(".carousel--header").text(projects[projectIndex].title);
   $(".carousel--text").text(projects[projectIndex].content);
+  $(".carousel--button").attr("href", projects[projectIndex].url)
 }
 
 function switchTextMobile(reverse = false) {
   $(".carousel-mobile--title").text(projects[projectIndex].title);
   $(".carousel-mobile--description").text(projects[projectIndex].content);
+  $(".carousel--button").attr("href", projects[projectIndex].url) // CAROUSEL--BUTTON-MOBILE?
 }
 
 function setImages() {
@@ -126,19 +129,28 @@ setText();
 setImages();
 switchTextMobile();
 $(".switch-down").click(function () {
-  incrementIndex();
-  switchText();
-  var slides = getSlides();
-  shiftClasses(slides, classes);
-  classes = shiftList(classes);
+  if (!$(this).hasClass('waitingForTimeout')) {
+    // do whatever when it's active.
+    incrementIndex();
+    switchText();
+    var slides = getSlides();
+    shiftClasses(slides, classes);
+    classes = shiftList(classes);
+    $(this).addClass("waitingForTimeout")
+    setTimeout(() => { $(".switch-down").removeClass("waitingForTimeout") }, "700")
+  }
 });
 
 $(".switch-up").click(function () {
-  incrementIndex(true);
-  switchText(true);
-  var slides = getSlides();
-  shiftClasses(slides, classes, true);
-  classes = shiftList(classes, true);
+  if (!$(this).hasClass('waitingForTimeout')) {
+    incrementIndex(true);
+    switchText(true);
+    var slides = getSlides();
+    shiftClasses(slides, classes, true);
+    classes = shiftList(classes, true);
+    $(this).addClass("waitingForTimeout")
+    setTimeout(() => { $(".switch-up").removeClass("waitingForTimeout") }, "700")
+  }
 });
 
 $(".carousel-mobile--arrow.left").click(function () {

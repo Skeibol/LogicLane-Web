@@ -1,5 +1,5 @@
 <?php
-$title = "Cntact us | Logic Lane";
+$title = "Contact us | Logic Lane";
 include "header.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -59,7 +59,7 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
     $_POST['message'] = null;
 }
 ?>
-<svg class="form--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700.34 654.17">
+<svg data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000" class="form--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700.34 654.17">
     <g id="Layer_2" data-name="Layer 2">
         <g id="Layer_1-2" data-name="Layer 1">
             <g id="Group_86" data-name="Group 86">
@@ -78,7 +78,8 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
 
 
 <div class="form--container">
-    <h2 class="form--text" id="#form-text">Send us a message</h2>
+    <h2 class="form--text" id="#form-text" data-aos="fade-right" data-aos-offset="100" data-aos-duration="1000">Send us
+        a message</h2>
     <form class="form--action" method="post" action="#form-text">
         <label for="name">Your name:</label>
         <input type="text" id="name" name="name" pattern="[a-zA-Z ]{1,}" required>
@@ -104,13 +105,15 @@ if (array_key_exists('email', $_POST) && $_POST['med'] == "") {
 
 
 <div class="map">
-    <h2 class="form--text text-right">..or visit us in our office</h2>
+    <h2 class="form--text text-right" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000">..or visit us
+        in our office</h2>
     <div class="map--container">
         <div class="map--left">
-            <h3>Contacts</h3>
-            <p>Mail : logiclane@gmail.com</p>
-            <p>Adress : Ulica Hrvatske Mladeži BB - PROMJENIT NA MAPI</p>
-            <p>Phone : +385 97 736 0408</p>
+            <h3>Reach out at:</h3>
+            <p><i class="fa fa--contact fa-sharp fa-thin fa-envelope"></i><a class="mail--contact" href="mailto:logiclane@gmail.com">logiclane@gmail.com</a></p>
+            <p> <i class="fa fa--contact fa-thin fa-map-marker"></i>Ulica Hrvatske Mladeži BB, 34551 Lipik</p>
+            <p><i class=" fa fa--contact fa-sharp fa-thin fa-phone"></i><a class="mail--contact" href="tel:+385 97 736 0408">+385 97 736
+                    0408</a> </p>
         </div>
         <div class="map--right">
             <iframe class="map--google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.8751878937683!2d17.155162173762793!3d45.41185638949885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476773aee49c16e7%3A0x3e37ba3eb85ad8ed!2sUl.%20Hrvatske%20mlade%C5%BEi%2032%2C%2034551%2C%20Lipik!5e0!3m2!1sen!2shr!4v1678814327800!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
