@@ -15,9 +15,9 @@ include "header.php";
 
             </p>
             <div class="btns">
-                <button class="btn-contact"><a class="invert" href="contact-us.php">Contact us</a></button>
-                <button class="btn-learn-more"><a href="index.php#services" class="learn-more-hero">Learn
-                        more</a></button>
+                <a class="invert" href="contact-us.php"><button class="btn-contact">Contact us</button></a>
+                <a href="#services" class="learn-more-hero"><button class="btn-learn-more">Learn
+                        more</button></a>
             </div>
         </div>
         <!-- LOGO SVG -->
@@ -53,19 +53,13 @@ include "header.php";
             <!-- VIDEO SVG -->
             <svg xmlns="http://www.w3.org/2000/svg" width="1188.493" height="1119.957" viewBox="0 0 1188.493 1119.957">
                 <g id="Group_17" data-name="Group 17" transform="translate(328.772 -899.426)">
-                    <g id="Polygon_2" data-name="Polygon 2"
-                        transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
+                    <g id="Polygon_2" data-name="Polygon 2" transform="matrix(0.848, -0.53, 0.53, 0.848, -328.772, 1420.131)" fill="none">
                         <path d="M388.5,0,777,622H0Z" stroke="none" />
-                        <path class="svg--fill"
-                            d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z"
-                            stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill" d="M 388.4999084472656 2.8314208984375 L 2.70538330078125 620.5 L 774.2946166992188 620.5 L 388.4999084472656 2.8314208984375 M 388.4999084472656 0 L 777 622 L 0 622 L 388.4999084472656 0 Z" stroke="none" fill="#0ab59d" />
                     </g>
-                    <g id="Polygon_4" data-name="Polygon 4"
-                        transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
+                    <g id="Polygon_4" data-name="Polygon 4" transform="matrix(0.848, -0.53, 0.53, 0.848, -318.772, 1390.131)" fill="none">
                         <path d="M463,0,926,742H0Z" stroke="none" />
-                        <path class="svg--fill"
-                            d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z"
-                            stroke="none" fill="#0ab59d" />
+                        <path class="svg--fill" d="M 462.9998779296875 2.83355712890625 L 2.7041015625 740.5 L 923.2958984375 740.5 L 462.9998779296875 2.83355712890625 M 462.9998779296875 0 L 926 742 L 0 742 L 462.9998779296875 0 Z" stroke="none" fill="#0ab59d" />
                     </g>
                 </g>
             </svg>
@@ -74,8 +68,7 @@ include "header.php";
         </div>
         <div class="about-us-col">
             <h2 class="about-us-title" data-aos="fade-left" data-aos-offset="100" data-aos-duration="1000">
-                Empowering Your Business with Innovative AI Solutions: <br> <strong
-                    style="color:var(--color-primary)">Meet LogicLane</strong>
+                Empowering Your Business with Innovative AI Solutions: <br> <strong style="color:var(--color-primary)">Meet LogicLane</strong>
             </h2>
             <p class="about-us-info">
                 We are a collaboration of AI developers, creating custom based solutions and developing smart software
@@ -95,8 +88,7 @@ include "header.php";
                 what
                 it can do for your business. Contact us to learn more and take the first step towards a brighter future.
                 <br><br>
-                <button class="btn-contact" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000"><a
-                        class="invert" href="contact-us.php">Contact us</a></button>
+                <a class="invert" href="contact-us.php"><button class="btn-contact" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000">Contact us</button></a>
             </p>
         </div>
     </div>
@@ -172,7 +164,8 @@ include "header.php";
                 <div class="testtext">
                     <h3>Artificial Intelligence</h3>
                     <hr>
-                    <p><span class="bolded">Transform data into insights. Harness the power of AI with our services. From
+                    <p><span class="bolded">Transform data into insights. Harness the power of AI with our services.
+                            From
                             machine learning to deep learning, we have the expertise to help businesses across a range
                             of industries leverage AI to improve operations, reduce costs, and gain a competitive
                             advantage.</span>
@@ -239,25 +232,19 @@ include "header.php";
         <p class="carousel-mobile--description">
         </p>
         <div class="carousel-mobile--arrow-holder">
-            <div class="carousel-mobile--arrow left"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53"
-                    viewBox="0 0 53 53">
+            <div class="carousel-mobile--arrow left"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
                     <g id="Polygon_17" data-name="Polygon 17" transform="translate(0 53) rotate(-90)" fill="none">
                         <path d="M26.5,0,53,53H0Z" stroke="none" />
-                        <path
-                            d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z"
-                            stroke="none" fill="var(--color-primary)" />
+                        <path d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z" stroke="none" fill="var(--color-primary)" />
                     </g>
                 </svg>
 
 
             </div>
-            <div class=" carousel-mobile--arrow right"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53"
-                    viewBox="0 0 53 53">
+            <div class=" carousel-mobile--arrow right"><svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
                     <g id="Polygon_17" data-name="Polygon 17" transform="translate(53) rotate(90)" fill="none">
                         <path d="M26.5,0,53,53H0Z" stroke="none" />
-                        <path
-                            d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z"
-                            stroke="none" fill="var(--color-primary)" />
+                        <path d="M 26.5 2.236068725585938 L 1.618034362792969 52 L 51.38196563720703 52 L 26.5 2.236068725585938 M 26.5 0 L 53 53 L 0 53 L 26.5 0 Z" stroke="none" fill="var(--color-primary)" />
                     </g>
                 </svg>
 
@@ -267,13 +254,10 @@ include "header.php";
     </div>
 
     <div class=" carousel--left carousel--container">
-        <button class="switch-up" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000"> <svg
-                xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
+        <button class="switch-up" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000"> <svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_9" data-name="Polygon 9" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill"
-                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
-                        stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
@@ -293,19 +277,16 @@ include "header.php";
         <div class="carousel--slide carousel--pos4">
             <img class="carousel--image" src="" alt="project picture">
         </div>
-        <button class="switch-down" data-aos="fade-down" data-aos-offset="0" data-aos-duration="1000"><svg
-                xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
+        <button class="switch-down" data-aos="fade-down" data-aos-offset="0" data-aos-duration="1000"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72">
                 <g id="Polygon_10" data-name="Polygon 10" transform="translate(73 72) rotate(-180)" fill="none">
                     <path d="M36.5,0,73,72H0Z" stroke="none" />
-                    <path class="svg--fill"
-                        d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z"
-                        stroke="none" fill="#0ab59d" />
+                    <path class="svg--fill" d="M 36.5 3.317390441894531 L 2.442146301269531 70.5 L 70.55785369873047 70.5 L 36.5 3.317390441894531 M 36.5 0 L 73 72 L 0 72 L 36.5 0 Z" stroke="none" fill="#0ab59d" />
                 </g>
             </svg>
         </button>
     </div>
     <div class="carousel--right carousel--container carousel--info">
-        <a class="carousel--link" href="" target=”_blank” >
+        <a class="carousel--link" href="" target=”_blank”>
             <button class="carousel--button">
                 <h3 class="carousel--header"></h3>
                 <i class="fa fa-github img--button"></i>
@@ -393,7 +374,7 @@ include "header.php";
 
 <!-- FAQ -->
 
-<div class="bcg-1" id="FAQ">
+<div class="bcg-1" id="our-principles">
     <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1917.54 222.41">
         <defs>
 
@@ -403,17 +384,15 @@ include "header.php";
     </svg>
 </div>
 <div class="FAQ--container">
-<h2 class="services-title" style="margin-left:-20px !important;" data-aos="fade-right" data-aos-offset="0" data-aos-duration="1000">
+    <h2 class="services-title" style="margin-left:-20px !important;" data-aos="fade-right" data-aos-offset="0" data-aos-duration="1000">
         We take care of our customers: <br> <strong style="color:var(--color-primary)">Development Principles
-            </strong></h2>
+        </strong></h2>
     <button class="FAQ--section">
         <!-- <img class="FAQ--arrow" src="images/chevron.svg" alt="" class="bcg"> -->
         <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
             <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
                 <path d="M13.5,0,27,26H0Z" stroke="none" />
-                <path
-                    d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z"
-                    stroke="none" fill="#0098d4" />
+                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
             </g>
         </svg>
         <p class="FAQ--Question">Focus on users</p>
@@ -430,9 +409,7 @@ include "header.php";
         <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
             <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
                 <path d="M13.5,0,27,26H0Z" stroke="none" />
-                <path
-                    d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z"
-                    stroke="none" fill="#0098d4" />
+                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
             </g>
         </svg>
         <p class="FAQ--Question">Project management</p>
@@ -449,9 +426,7 @@ include "header.php";
         <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
             <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
                 <path d="M13.5,0,27,26H0Z" stroke="none" />
-                <path
-                    d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z"
-                    stroke="none" fill="#0098d4" />
+                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
             </g>
         </svg>
         <p class="FAQ--Question">Support and maintenance</p>
@@ -468,9 +443,7 @@ include "header.php";
         <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
             <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
                 <path d="M13.5,0,27,26H0Z" stroke="none" />
-                <path
-                    d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z"
-                    stroke="none" fill="#0098d4" />
+                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
             </g>
         </svg>
 
@@ -488,9 +461,7 @@ include "header.php";
         <svg class="FAQ--arrow" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27">
             <g id="Polygon_17" data-name="Polygon 17" transform="translate(26) rotate(90)" fill="none">
                 <path d="M13.5,0,27,26H0Z" stroke="none" />
-                <path
-                    d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z"
-                    stroke="none" fill="#0098d4" />
+                <path d="M 13.5 3.255088806152344 L 2.468988418579102 24.5 L 24.5310115814209 24.5 L 13.5 3.255088806152344 M 13.5 0 L 27 26 L 0 26 L 13.5 0 Z" stroke="none" fill="#0098d4" />
             </g>
         </svg>
 

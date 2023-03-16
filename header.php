@@ -146,7 +146,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link hover-underline-animation" href="index.php#FAQ">
+                    <a class="nav-link hover-underline-animation" href="index.php#our-principles">
                         Principles
                     </a>
                 </li>

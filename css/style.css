@@ -3,7 +3,7 @@
   /* --color-secondary: #21a1c8; */
   --black: #000000;
   --white: #ffffff;
-  --gray: #cfcfcf;
+  --gray: #dde7f3;
   --color-primary: #0098d4;
   --color-secondary: #111114;
   --color-message: #e0007b;
@@ -30,13 +30,15 @@
   text-align: center;
   border-radius: 4px;
   position: fixed;
-  bottom: 0px;
+  bottom: 35px;
+  margin: 20px;
+  padding: 20px;
   right: 30px;
   transition: background-color .3s,
     opacity .5s, visibility .5s, transform .5s;
   opacity: 0;
   visibility: hidden;
-  z-index: 1000;
+  z-index: 200000000;
 
 }
 
@@ -54,7 +56,7 @@
 }
 
 #back-to-top.show {
-  opacity: 0.6;
+  opacity: 1;
   visibility: visible;
 }
 
@@ -478,11 +480,13 @@ ul li {
 .btn-contact:hover {
   background-color: rgba(255, 255, 255, 0);
   border-style: solid;
+  outline: none;
+  color: var(--color-primary);
   text-decoration: none !important;
 }
 
 .btn-contact:focus,
-.btn-contact:active {
+.btn-contact:active, .btn-learn-more:focus, .btn-learn-more:active {
   outline: none;
   text-decoration: none !important;
 }
@@ -501,6 +505,7 @@ ul li {
   transition-duration: 250ms, 250ms;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+  color: var(--color-primary);
 }
 
 .btn-learn-more a {
@@ -510,6 +515,8 @@ ul li {
 .btn-learn-more:hover {
   background-color: var(--color-primary);
   text-decoration: none;
+  outline: none;
+  color: var(--white);
   border: 1px solid var(--color-primary);
 }
 
@@ -878,7 +885,7 @@ ul li {
   background: none;
   transition: all 1s ease-in-out;
   text-align: center;
-  padding: 5px;
+  padding: 5px 0 5px 0;
   margin-top: -50px;
 }
 
@@ -898,7 +905,7 @@ ul li {
   border-style: none;
   outline: none;
   left: 40%;
-  top: -3%;
+  bottom: 96.5%;
 }
 
 .switch-up:hover,
