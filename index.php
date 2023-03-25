@@ -10,8 +10,7 @@ include "header.php";
             <h1 class="hero-title">
                 The power of AI at your fingertips.
             </h1>
-            <p class="hero-subtitle">From planning to implementation and everything in between, we are available to you
-                at every step of the way.
+            <p class="hero-subtitle">From planning to implementation and everything in between, we are available to you every step of the way.
 
             </p>
             <div class="btns">

@@ -64,10 +64,6 @@
     margin-left: 0;
   }
 
-  .testtext {
-    padding: 20px;
-  }
-
   .card-box h3 {
     font-size: var(--font-size-title3);
   }

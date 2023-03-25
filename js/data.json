@@ -2,25 +2,25 @@
     {
        "image":"images/projects/chatbot.png",
        "title":"Chat Bot - Conversational assistant",
-       "content":"Project is a showcase of artificial intelligence and natural language processing. It contains chatbot model that is trained to recognize intents of users and respond correctly.  Bot understands greetings and goodbyes as well as users moods and will respond accordingly.",
+       "content":"The project is a showcase of artificial intelligence and natural language processing. It contains a chatbot model that is trained to recognize the intents of users and respond correctly. Bot understands greetings and goodbyes as well as user moods and will respond accordingly.",
        "url" : "https://github.com/IgorJonjic/LogicLaneBot"
     },
     {
        "image":"images/projects/NN.webp",
        "title":"Educational Neural Network",
-       "content":"ToNNi is an educational neural network developed completely from scratch by our team. Its purpose is to be used in teaching young developers the basics of neural nets and their inner workings. Its simplicity and easy to understand infrastructure makes it stand out from bigger commercial frameworks",
+       "content":"ToNNi is an educational neural network developed completely from scratch by our team. Its purpose is to be used in teaching young developers the basics of neural nets and their inner workings. Its simplicity and easy-to-understand infrastructure make it stand out from bigger commercial frameworks.",
        "url" : "https://gitlab.com/big-projects1/cabininthewoodsnetwork"
       },
       {
          "image":"images/projects/pose-detection.png",
          "title":"Pose Tracking - Workout helper",
-         "content":"Algorithm detects key points on human body and with applience of mathematical methods tracks number of repetitions for given exercise. It is also able to track if those exercises were made with full range of motion. Exercises covered so far are pullups, pushups and squats.",
+         "content":"Algorithm detects key points on the human body and with application of mathematical methods tracks the number of repetitions for a given exercise. It is also able to track if those exercises were performed with full range of motion. Exercises covered so far are pullups, pushups and squats.",
          "url" : "https://github.com/m-soldo/mediapipe_exercise"
       },
     {
        "image":"images/projects/text-classification.png",
        "title":"Text Classification",
-       "content":"The project contains 3 different classification algorithms that were used on an e-commerce dataset downloaded from Kaggle.com. The dataset is edited as a csv file and contains 2 columns with text describing the product and the corresponding class. Algorithms are rated according to accuracy and a confusion matrix is ​​presented for each algorithm.",
+       "content":"The project contains three different classification algorithms that were used on an e-commerce dataset downloaded from Kaggle.com. The dataset is edited as a csv file and contains two columns with text describing the product and the corresponding class. Algorithms are rated according to accuracy and a confusion matrix is presented for each algorithm.",
        "url" : "https://github.com/IgorJonjic/Comparing-Text-Classification-algorithms"
     },
     {

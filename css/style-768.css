@@ -99,14 +99,14 @@
   }
 
   .btn-contact {
-    width: auto;
-    padding: 8px 10px 8px 10px;
+    width: 30%;
+    padding: 8px 0 8px 0;
     border: 0.5px solid var(--color-primary);
   }
 
   .btn-learn-more {
-    width: auto;
-    padding: 8px 10px 8px 10px;
+    width: 30%;
+    padding: 8px 0 8px 0;
     background: none;
     margin-left: 25px;
     border: 0.5px solid var(--color-primary);
@@ -167,17 +167,8 @@
   .testtext {
     margin: auto;
     padding: 30px;
-    text-align: left !important;
   }
 
-  .testtext h3 {
-    text-align: left !important;
-  }
-
-  .card-box hr {
-    background-color: white;
-    display: block;
-  }
 
   .shrink {
     height: auto !important;

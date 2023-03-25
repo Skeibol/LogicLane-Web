@@ -216,7 +216,7 @@ h3 {
   /* src: url('TTSupermolotNeue-Regular.eot'); */
   src: local("TT Supermolot Neue Regular"), local("TTSupermolotNeue-Regular"),
     /* url('TTSupermolotNeue-Regular.eot?#iefix') format('embedded-opentype'), */
-    url("../font/TTSupermolotNeue-Regular.woff2") format("woff2"),
+      url("../font/TTSupermolotNeue-Regular.woff2") format("woff2"),
     url("../font/TTSupermolotNeue-Regular.woff") format("woff"),
     url("../font/TTSupermolotNeue-Regular.ttf") format("truetype");
   font-weight: normal;
@@ -227,7 +227,7 @@ body {
   overflow-x: hidden;
   background-color: var(--color-primary-background);
   scroll-behavior: smooth;
-  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
 }
 
 body::-webkit-scrollbar {
@@ -308,13 +308,13 @@ body::-webkit-scrollbar {
   transform-origin: bottom left;
 }
 
-.nav-link:hover>.navbar-dash-right {
+.nav-link:hover > .navbar-dash-right {
   opacity: 1;
   margin-left: 1px;
   padding-left: 7px;
 }
 
-.nav-link:hover>.navbar-dash-left {
+.nav-link:hover > .navbar-dash-left {
   opacity: 0.7;
   margin-right: 1px;
   padding-right: 7px;
@@ -336,19 +336,19 @@ svg g .cls-3 {
   stroke-width: 17.37px;
 }
 
-svg>g>g>.cls-1 {
+svg > g > g > .cls-1 {
   stroke: url(#linear-gradient);
 }
 
-svg>g>g>.cls-3 {
+svg > g > g > .cls-3 {
   stroke: url(#linear-gradient-2);
 }
 
-svg>g>g>.cls-2 {
+svg > g > g > .cls-2 {
   fill: var(--white);
 }
 
-.scrolled>a>svg>g>g>.cls-2 {
+.scrolled > a > svg > g > g > .cls-2 {
   fill: rgb(41, 41, 41);
 }
 
@@ -381,11 +381,11 @@ svg>g>g>.cls-2 {
 /* .scrolled>.navbar-toggler {
   background-color: none !important;
 } */
-.scrolled>.navbar-toggler>span>svg>path {
+.scrolled > .navbar-toggler > span > svg > path {
   fill: var(--color-secondary) !important;
 }
 
-.scrolled>div>ul>li>a {
+.scrolled > div > ul > li > a {
   color: var(--color-primary) !important;
 }
 
@@ -401,14 +401,18 @@ ul li {
 
 .hero-container {
   width: 100vw;
-  background: linear-gradient(179deg,
+  background: linear-gradient(
+      179deg,
       rgb(4, 27, 27),
-      rgba(12, 73, 75, 0.74) 70.71%),
+      rgba(12, 73, 75, 0.74) 70.71%
+    ),
     linear-gradient(45deg, rgb(0, 19, 22), var(--color-secondary) 70.71%),
     linear-gradient(266deg, #2b2674, rgba(9, 100, 122, 0) 70.71%);
-  background: linear-gradient(179deg,
+  background: linear-gradient(
+      179deg,
       rgb(3 46 66 / 81%),
-      rgb(14 1 64 / 54%) 70.71%),
+      rgb(14 1 64 / 54%) 70.71%
+    ),
     linear-gradient(45deg, #090720, #1d56ac 70.71%),
     linear-gradient(266deg, #00342c, rgba(18, 164, 201, 0.479) 70.71%);
 }
@@ -625,7 +629,7 @@ ul li {
 }
 
 .card-row {
-  height: 42rem;
+  height: 70vh;
 }
 
 .testtext {
@@ -651,16 +655,14 @@ ul li {
   width: 100%;
   height: 100%;
   color: var(--white);
-  transition: filter, background-image, background-size, height, margin, scale 0.6s, 0.6s, 0.6s;
-}
-
-.card-box h3 {
-  text-align: center;
+  transition: filter, background-image, background-size, height, margin,
+    scale 0.6s, 0.6s, 0.6s;
+  text-align: left;
 }
 
 .testtext {
   color: var(--white);
-  padding: 10%;
+  padding: 0 50px 0 50px;
 }
 
 .card-box h3 {
@@ -696,11 +698,6 @@ ul li {
   background-color: var(--color-primary) !important;
   filter: grayscale(80%);
   filter: none;
-  text-align: left;
-}
-
-.expand h3 {
-  text-align: left !important;
 }
 
 .card-box br {
@@ -985,7 +982,7 @@ ul li {
   text-align: left;
 }
 
-.FAQ--section>p {
+.FAQ--section > p {
   margin: auto;
 }
 
@@ -1058,11 +1055,11 @@ ul li {
   position: absolute;
 }
 
-.form--svg>g>g>g>g>.cls-1 {
+.form--svg > g > g > g > g > .cls-1 {
   fill: none;
 }
 
-.form--svg>g>g>g>g>.cls-2 {
+.form--svg > g > g > g > g > .cls-2 {
   fill: var(--color-primary);
 }
 
@@ -1153,13 +1150,13 @@ textarea:focus {
   gap: var(--font-size-title2);
 }
 
-.map--left>p {
+.map--left > p {
   text-align: left;
   margin-right: 20px;
   margin-bottom: 0;
 }
 
-.map--left>h3 {
+.map--left > h3 {
   margin-right: 50px;
   text-align: left;
 }
@@ -1212,7 +1209,7 @@ iframe {
   object-fit: cover;
 }
 
-.footer--section>.fa {
+.footer--section > .fa {
   font-size: var(--font-size-title2) !important;
   padding: 5px;
   color: var(--color-primary);
@@ -1220,7 +1217,7 @@ iframe {
   transition: color 0.3s ease-in;
 }
 
-.footer--section>.fa:hover {
+.footer--section > .fa:hover {
   text-decoration: none;
   color: var(--color-secondary);
 }
@@ -1232,7 +1229,7 @@ iframe {
   text-align: center;
 }
 
-.footer--copyright>p {
+.footer--copyright > p {
   padding: 18px;
   margin: 0;
   color: var(--white);
