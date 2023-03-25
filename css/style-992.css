@@ -64,6 +64,10 @@
     margin-left: 0;
   }
 
+  .testtext {
+    padding: 20px;
+  }
+
   .card-box h3 {
     font-size: var(--font-size-title3);
   }
@@ -72,18 +76,26 @@
 
   .carousel--left {
     position: relative;
-    margin: 5% 2% 5% 2%;
-    width: 50%;
+    margin: 5% 0 5% 2%;
+    width: 52%;
   }
 
   .carousel--right {
-    width: 50%;
+    width: 48%;
   }
 
   .carousel--info {
     vertical-align: middle;
     margin: auto;
-    padding: 0 2% 0 2%;
+    padding: 0 1% 0 0;
+  }
+
+  .carousel--pos2 {
+    left: 5%;
+  }
+
+  .projects--title {
+    margin-top: -50px;
   }
 
   .switch-up {
