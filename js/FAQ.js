@@ -30,12 +30,12 @@ for (i = 0; i < acc.length; i++) {
       this.children[0].classList.remove("rotate-right");
       panel.style.maxHeight = null;
       console.log("before");
+      removeFAQClasses();
       return;
     }
 
     addFAQClass(this);
-    this.addEventListener("focusout", (event) => {
-      removeFAQClasses();
-    });
+    //this.addEventListener("click", (event) => {
+    //});
   });
 }

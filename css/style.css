@@ -665,6 +665,7 @@ ul li {
 }
 
 .card-box {
+  overflow: hidden;
   background-image: url(../images/services/service-bg2.png);
   background-repeat: no-repeat;
   background-position: center;

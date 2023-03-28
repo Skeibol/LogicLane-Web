@@ -122,7 +122,7 @@ include "header.php";
                     <p class="card--list">&#9702; Dataset collection</p>
                     <p class="card--list">&#9702; Dataset annotiation</p>
                     <p class="card--list">&#9702; Data augmentation and clearing</p>
-                    <p class="card--price">Starting from €150/day*</p>
+                    <p class="card--price">Price: €150/day*</p>
                 </div>
             </div>
 
@@ -139,7 +139,7 @@ include "header.php";
                     <p class="card--list">&#9702; Shape detection</p>
                     <p class="card--list">&#9702; Image filtering and augmentation</p>
                     <p class="card--list">&#9702; Image stitching</p>
-                    <p class="card--price">Starting from €200/day*</p>
+                    <p class="card--price">Price: €200/day*</p>
                 </div>
             </div>
         </div>
@@ -161,7 +161,7 @@ include "header.php";
                     <p class="card--list">&#9702; Entity recognition</p>
                     <p class="card--list">&#9702; Natural language generation</p>
                     <p class="card--list">&#9702; Recommendation system</p>
-                    <p class="card--price">Starting from €200/day*</p>
+                    <p class="card--price">Price: €200/day*</p>
                 </div>
             </div>
 
@@ -177,7 +177,7 @@ include "header.php";
                     </p><br>
                     <p class="card--list">&#9702; Supervised learning</p>
                     <p class="card--list">&#9702; Unsupervised learning</p>
-                    <p class="card--price">Starting from €180/day*</p>
+                    <p class="card--price">Price: €200/day*</p>
                 </div>
             </div>
         </div>
@@ -195,7 +195,7 @@ include "header.php";
                     </p><br>
                     <p class="card--list">&#9702; Custom web apps</p>
                     <p class="card--list">&#9702; Custom web pages</p>
-                    <p class="card--price">Starting from €200/day*</p>
+                    <p class="card--price">Price: €200/day*</p>
                 </div>
             </div>
 
@@ -215,14 +215,14 @@ include "header.php";
                     <p class="card--list">&#9702; Hand gesture recognition</p>
                     <p class="card--list">&#9702; Visual quality inspection</p>
                     <p class="card--list">&#9702; Image-to-text</p>
-                    <p class="card--price">Starting from €200/day*</p>
+                    <p class="card--price">Price: €200/day*</p>
                 </div>
             </div>
 
         </div>
 
     </div>
-    <p class="text-right" style="font-style:italic; margin-top:25px">*Pricing may vary depending on your needs
+    <p class="text-right" style="font-style:italic; margin-top:25px">*Rates may vary depending on the scope of the project.
     </p>
 </div>
 
@@ -434,7 +434,7 @@ include "header.php";
     <div class="FAQ--panel">
         <p>
             Our strategy is built on recognizing customer needs and making sure customer satisfaction is the top
-            priority in every phase of the our shared journey. We thrive in creating bespoke software, thus making our
+            priority in every phase of our shared journey. We thrive in creating bespoke software, thus making our
             software build uniquely tailored to accommodate our customers needs and preferences.
 
         </p>
